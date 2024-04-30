@@ -1,0 +1,175 @@
+{
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pickaxe": "2024-04-30 21:49:29 +0300"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/craft_coffin": {
+    "criteria": {
+      "coffin": "2024-04-30 21:55:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-04-30 21:48:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-04-30 21:57:40 +0300"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/darkstone": {
+    "criteria": {
+      "has_obsidian": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2024-04-30 21:56:04 +0300"
+    },
+    "done": false
+  },
+  "create:recipes/misc/crafting/appliances/schedule_clear": {
+    "criteria": {
+      "has_item": "2024-04-30 22:00:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox": {
+    "criteria": {
+      "has_item": "2024-04-30 22:00:27 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/large_water_wheel": {
+    "criteria": {
+      "has_item": "2024-04-30 21:58:03 +0300"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/red_vane": {
+    "criteria": {
+      "has_obsidian": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/cyan_vane": {
+    "criteria": {
+      "has_obsidian": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/clipboard_clear": {
+    "criteria": {
+      "has_item": "2024-04-30 21:59:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-04-30 21:56:04 +0300"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2024-04-30 22:00:58 +0300"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/blue_vane": {
+    "criteria": {
+      "has_obsidian": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2024-04-30 21:49:29 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/purple_vane": {
+    "criteria": {
+      "has_obsidian": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/patchouli": {
+    "criteria": {
+      "tick": "2024-04-30 21:48:24 +0300"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/yellow_vane": {
+    "criteria": {
+      "has_obsidian": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/root": {
+    "criteria": {
+      "divinerpg": "2024-04-30 21:48:25 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2024-04-30 21:56:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-04-30 22:22:21 +0300",
+      "minecraft:river": "2024-04-30 22:22:34 +0300",
+      "minecraft:snowy_plains": "2024-04-30 22:22:36 +0300",
+      "minecraft:snowy_beach": "2024-04-30 22:22:41 +0300",
+      "minecraft:plains": "2024-04-30 21:48:25 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-04-30 21:49:28 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

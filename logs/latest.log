@@ -1,325 +1,647 @@
-[30Apr2024 22:48:51.518] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[30Apr2024 22:48:51.521] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[30Apr2024 22:48:51.753] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[30Apr2024 22:48:51.761] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[30Apr2024 22:48:51.763] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/server/mods/OptiFine-1.20.1_HD_U_I6_pre6.jar%23114!/
-[30Apr2024 22:48:51.767] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\server\mods\OptiFine-1.20.1_HD_U_I6_pre6.jar
-[30Apr2024 22:48:51.769] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[30Apr2024 22:48:51.801] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[30Apr2024 22:48:51.807] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[30Apr2024 22:48:51.963] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\server\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[30Apr2024 22:48:51.965] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[30Apr2024 22:48:51.967] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[30Apr2024 22:48:51.969] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\server\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[30Apr2024 22:48:52.055] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[30Apr2024 22:48:52.319] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[30Apr2024 22:48:52.324] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
-[30Apr2024 22:48:52.602] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[30Apr2024 22:48:52.863] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[30Apr2024 22:48:52.920] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[30Apr2024 22:48:52.921] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[30Apr2024 22:48:53.114] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[30Apr2024 22:48:53.114] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[30Apr2024 22:48:53.115] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[30Apr2024 22:48:53.147] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[30Apr2024 22:48:53.147] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[30Apr2024 22:48:53.148] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[30Apr2024 22:48:53.149] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[30Apr2024 22:48:53.149] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[30Apr2024 22:48:57.768] [modloading-worker-0/WARN] [fallingleaves/]: Falling Leaves is a client only mod and should be removed from the mods list
-[30Apr2024 22:48:57.788] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[30Apr2024 22:48:57.789] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[30Apr2024 22:48:58.304] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered events
-[30Apr2024 22:48:59.659] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Attached entity attributes
-[30Apr2024 22:48:59.684] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\server\config\divinerpg\divinerpg-common.toml is not correct. Correcting
-[30Apr2024 22:48:59.685] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for DivineRPG.kitraProtected was corrected from [minecraft:salmon, minecraft:cod, minecraft:pufferfish, minecraft:squid, minecraft:tadpole, minecraft:turtle, divinerpg:shark, divinerpg:aequorea, divinerpg:whale, divinerpg:liopleurodon, minecraft:glow_squid, divinerpg:robbin] to its default, [minecraft:salmon, minecraft:cod, minecraft:pufferfish, minecraft:squid, minecraft:tadpole, minecraft:turtle, divinerpg:shark, divinerpg:aequorea, divinerpg:whale, divinerpg:liopleurodon, minecraft:glow_squid, divinerpg:robbin]. 
-[30Apr2024 22:48:59.717] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered triggers
-[30Apr2024 22:48:59.759] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[30Apr2024 22:48:59.760] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[30Apr2024 22:48:59.809] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30Apr2024 22:49:00.304] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
-[30Apr2024 22:49:00.304] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[30Apr2024 22:49:00.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
-[30Apr2024 22:49:00.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Starting version check at https://raw.githubusercontent.com/DivineRPG/DivineRPG-Assets/main/divinerpg_update.json
-[30Apr2024 22:49:00.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Found status: OUTDATED Current: 1.10.7.1 Target: 1.10.7.3
-[30Apr2024 22:49:00.886] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
-[30Apr2024 22:49:00.949] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30Apr2024 22:49:01.027] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap Expected: 0 Got: 73
-[30Apr2024 22:49:01.027] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap_harmful Expected: 34 Got: 74
-[30Apr2024 22:49:01.029] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar Expected: 35 Got: 75
-[30Apr2024 22:49:01.030] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar_harmful Expected: 36 Got: 76
-[30Apr2024 22:49:01.030] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints Expected: 37 Got: 77
-[30Apr2024 22:49:01.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints_harmful Expected: 38 Got: 78
-[30Apr2024 22:49:01.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps Expected: 39 Got: 79
-[30Apr2024 22:49:01.032] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps_harmful Expected: 40 Got: 80
-[30Apr2024 22:49:01.539] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.5 Target: 1.20.1-1.0.10
-[30Apr2024 22:49:01.805] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23129!/assets/.mcassetsroot' uses unexpected schema
-[30Apr2024 22:49:01.806] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23129!/data/.mcassetsroot' uses unexpected schema
-[30Apr2024 22:49:01.922] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[30Apr2024 22:49:01.924] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0; Value must be positive: 0; Value must be positive: 0
-[30Apr2024 22:49:01.925] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[30Apr2024 22:49:01.926] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[30Apr2024 22:49:01.926] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[30Apr2024 22:49:01.927] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0; Value must be positive: 0
-[30Apr2024 22:49:01.928] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[30Apr2024 22:49:01.930] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[30Apr2024 22:49:01.931] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0; Value must be positive: 0
-[30Apr2024 22:49:01.932] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[30Apr2024 22:49:01.935] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[30Apr2024 22:49:02.589] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:divinerpg:patchouli
-com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23134!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23134!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[30Apr2024 22:49:02.627] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
-com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23134!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23134!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[30Apr2024 22:49:02.664] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe divinerpg:shapeless/guide_book
-com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.0-universal.jar%23134!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.0-universal.jar%23134!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23134!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Apr2024 22:49:02.669] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:patchouli_parcool_guide
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
-	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23129!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Apr2024 22:49:02.698] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 25 recipes
-[30Apr2024 22:49:02.759] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3211 advancements
-[30Apr2024 22:49:03.978] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[30Apr2024 22:49:03.978] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[30Apr2024 22:49:03.982] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[30Apr2024 22:49:03.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30Apr2024 22:49:04.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[30Apr2024 22:49:04.026] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[30Apr2024 22:49:04.101] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[30Apr2024 22:49:04.101] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[30Apr2024 22:49:04.103] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[30Apr2024 22:49:04.104] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[30Apr2024 22:49:04.146] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[30Apr2024 22:49:04.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Apr2024 22:49:07.345] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2024 22:49:07.346] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2024 22:49:07.349] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2024 22:49:07.349] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2024 22:49:07.350] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2024 22:49:07.485] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2024 22:49:07.965] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2980 ms
-[30Apr2024 22:49:07.966] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.850s)! For help, type "help"
-[30Apr2024 22:49:07.995] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[30Apr2024 22:50:54.575] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BoomBox1k[/92.255.221.217:54984] logged in with entity id 125 at (16.874887035881752, 72.0, 219.85701146619311)
-[30Apr2024 22:50:54.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k joined the game
-[30Apr2024 22:50:55.023] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 985a8fec-8eb3-34b5-bd06-2fd744784146 was loaded
-[30Apr2024 22:51:08.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BoomBox1k: Set the time to 1000]
-[30Apr2024 22:51:26.205] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/194, l='ServerLevel[world]', x=53.47, y=72.00, z=270.47] died: 1/20 burned to death
-[30Apr2024 22:51:26.209] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/224, l='ServerLevel[world]', x=100.51, y=64.00, z=208.51] died: 1/20 burned to death
-[30Apr2024 22:51:26.757] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/189, l='ServerLevel[world]', x=-23.47, y=68.00, z=187.49] died: 1/20 burned to death
-[30Apr2024 22:51:27.207] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/271, l='ServerLevel[world]', x=62.88, y=67.00, z=304.08] died: 1/20 burned to death
-[30Apr2024 22:51:27.708] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/287, l='ServerLevel[world]', x=28.79, y=73.00, z=295.79] died: 1/20 burned to death
-[30Apr2024 22:51:28.256] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/258, l='ServerLevel[world]', x=50.50, y=64.00, z=123.51] died: 1/20 burned to death
-[30Apr2024 22:51:30.504] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/245, l='ServerLevel[world]', x=-29.18, y=68.00, z=205.50] died: 1/20 burned to death
-[30Apr2024 22:51:39.017] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ibah[/192.168.0.103:51720] logged in with entity id 453 at (13.394952849047096, 76.0, 228.07384202915384)
-[30Apr2024 22:51:39.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah joined the game
-[30Apr2024 22:51:39.475] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26e65ccf-97a8-36ca-a815-508066571c14 was loaded
-[30Apr2024 22:52:18.413] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/430, l='ServerLevel[world]', x=24.46, y=73.54, z=266.55] died: 1/20 burned to death
-[30Apr2024 22:52:44.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BoomBox1k: Set own game mode to Creative Mode]
-[30Apr2024 22:52:47.512] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/623, l='ServerLevel[world]', x=-69.34, y=19.00, z=313.25] died: 2/10 drowned
-[30Apr2024 22:52:48.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ibah> da
-[30Apr2024 22:52:50.210] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/276, l='ServerLevel[world]', x=29.13, y=73.00, z=296.91] died: 1/20 burned to death
-[30Apr2024 22:53:06.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: The difficulty has been set to Peaceful]
-[30Apr2024 22:53:17.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BoomBox1k: Teleported ibah to BoomBox1k]
-[30Apr2024 22:53:17.375] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! -308.4101559575897,40.859374010297614,38.43665329437701
-[30Apr2024 22:53:17.383] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! -308.4101559575897,40.859374010297614,38.43665329437701
-[30Apr2024 22:53:17.387] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! -308.4101559575897,40.859374010297614,38.43665329437701
-[30Apr2024 22:53:17.392] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! -308.4101559575897,40.859374010297614,38.43665329437701
-[30Apr2024 22:53:17.397] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! -308.4101559575897,40.859374010297614,38.43665329437701
-[30Apr2024 22:53:17.401] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! -308.4101559575897,40.859374010297614,38.43665329437701
-[30Apr2024 22:53:17.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Teleported ibah to BoomBox1k]
-[30Apr2024 22:53:28.090] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=465, y=-57, z=343}
-[30Apr2024 22:53:42.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Set own game mode to Creative Mode]
-[30Apr2024 22:53:51.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Teleported ibah to BoomBox1k]
-[30Apr2024 22:53:51.950] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! -114.62940174645269,-10.074543028595997,18.256058038533183
-[30Apr2024 22:54:19.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Hanging Tree]
-[30Apr2024 22:54:23.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/1656, l='ServerLevel[world]', x=-519.60, y=11.00, z=299.40] died: 2/10 drowned
-[30Apr2024 22:54:28.416] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element #forge:is_desert (minecraft:desert) took 2313 ms
-[30Apr2024 22:54:28.416] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2311ms or 46 ticks behind
-[30Apr2024 22:54:36.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BoomBox1k: Teleported BoomBox1k to 2260.500000, 95.000000, 4124.500000]
-[30Apr2024 22:55:13.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [Gravedigger]
-[30Apr2024 22:55:29.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BoomBox1k: Teleported BoomBox1k to ibah]
-[30Apr2024 22:55:29.654] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BoomBox1k moved too quickly! -2701.752816141173,-51.423335109539835,-3682.7415272118146
-[30Apr2024 22:55:33.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [Hanging Tree]
-[30Apr2024 22:55:44.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BoomBox1k: Set the time to 13000]
-[30Apr2024 22:55:47.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Set own game mode to Survival Mode]
-[30Apr2024 22:56:26.313] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/2841, l='ServerLevel[world]', x=-684.66, y=-41.00, z=610.60] died: 2/10 drowned
-[30Apr2024 22:56:42.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Set own game mode to Creative Mode]
-[30Apr2024 22:57:08.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[30Apr2024 22:57:08.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[30Apr2024 22:57:08.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[30Apr2024 22:57:08.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[30Apr2024 22:57:08.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[30Apr2024 22:57:09.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:mortum
-[30Apr2024 22:57:09.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:vethea
-[30Apr2024 22:57:09.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[30Apr2024 22:57:09.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:iceika
-[30Apr2024 22:57:09.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:apalachia
-[30Apr2024 22:57:09.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:arcana
-[30Apr2024 22:57:09.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[30Apr2024 22:57:09.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:eden
-[30Apr2024 22:57:09.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:skythern
-[30Apr2024 22:57:09.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:wildwood
-[30Apr2024 22:57:09.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[30Apr2024 22:57:09.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mortum): All chunks are saved
-[30Apr2024 22:57:09.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vethea): All chunks are saved
-[30Apr2024 22:57:09.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[30Apr2024 22:57:09.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (iceika): All chunks are saved
-[30Apr2024 22:57:09.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (apalachia): All chunks are saved
-[30Apr2024 22:57:09.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arcana): All chunks are saved
-[30Apr2024 22:57:09.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[30Apr2024 22:57:09.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (eden): All chunks are saved
-[30Apr2024 22:57:09.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skythern): All chunks are saved
-[30Apr2024 22:57:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (wildwood): All chunks are saved
-[30Apr2024 22:57:09.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01May2024 00:00:08.310] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/12537, l='ServerLevel[world]', x=-295.40, y=23.00, z=-387.42] died: 2/10 drowned
+[01May2024 00:00:08.761] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/12536, l='ServerLevel[world]', x=-295.48, y=23.00, z=-388.24] died: 2/10 drowned
+[01May2024 00:00:54.363] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/12786, l='ServerLevel[world]', x=-306.30, y=46.95, z=-327.30] died: 1/20 suffocated in a wall
+[01May2024 00:02:03.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BoomBox1k> xaero-waypoint:home:H:-235:125:-375:5:false:0:Internal-overworld-waypoints
+[01May2024 00:02:03.859] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/13132, l='ServerLevel[world]', x=-215.63, y=53.48, z=-325.14] died: 2/4 was slain by 14/14
+[01May2024 00:02:12.306] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['16/20'/12801, l='ServerLevel[world]', x=-248.39, y=121.00, z=-391.80] died: 16/20 was slain by 100/100
+[01May2024 00:02:41.292] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['10/10'/10990, l='ServerLevel[world]', x=-237.90, y=125.94, z=-359.86] died: 10/10 was slain by BoomBox1k
+[01May2024 00:03:03.559] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/13415, l='ServerLevel[world]', x=-186.53, y=22.00, z=-341.58] died: 2/10 drowned
+[01May2024 00:03:17.567] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VHSchrome[/89.207.78.88:62718] logged in with entity id 13495 at (-9.5, 64.0, -40.5)
+[01May2024 00:03:17.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome joined the game
+[01May2024 00:03:20.132] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 490516b0-dfc1-3060-a481-11d3d233cccc was loaded
+[01May2024 00:03:26.191] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/13446, l='ServerLevel[world]', x=-235.79, y=122.00, z=-381.59] died: 1/20 was slain by ibah
+[01May2024 00:03:29.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [Acquire Hardware]
+[01May2024 00:03:43.338] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/13638, l='ServerLevel[world]', x=-253.97, y=136.00, z=-362.54] died: 1/20 was slain by ibah
+[01May2024 00:03:46.257] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['10/25'/13673, l='ServerLevel[world]', x=-243.58, y=121.94, z=-390.43] died: 10/25 was slain by 100/100
+[01May2024 00:04:04.215] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/13801, l='ServerLevel[world]', x=-184.87, y=20.00, z=-337.73] died: 2/10 drowned
+[01May2024 00:04:07.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ibah> -260 137 -383
+[01May2024 00:04:08.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah was shot by 20/20
+[01May2024 00:04:09.796] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 393.19999998807907,-67.9375,-60.441710203792354
+[01May2024 00:04:09.808] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 393.19999998807907,-67.9375,-60.441710203792354
+[01May2024 00:04:09.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 393.19999998807907,-67.9375,-60.441710203792354
+[01May2024 00:04:10.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BoomBox1k> xaero-waypoint:home:H:-235:125:-375:5:false:0:Internal-overworld-waypoints
+[01May2024 00:04:17.362] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/13992, l='ServerLevel[world]', x=-183.11, y=21.00, z=-338.40] died: 2/10 drowned
+[01May2024 00:04:18.563] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/13993, l='ServerLevel[world]', x=-184.40, y=20.00, z=-338.56] died: 2/10 drowned
+[01May2024 00:04:25.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [Sweet Dreams]
+[01May2024 00:04:43.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [Monster Hunter]
+[01May2024 00:04:43.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/13637, l='ServerLevel[world]', x=-236.28, y=125.50, z=-374.00] died: 2/20 was slain by BoomBox1k
+[01May2024 00:04:49.565] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['20/20'/14265, l='ServerLevel[world]', x=-157.06, y=70.00, z=-60.01] died: 20/20 was blown up by 20/20
+[01May2024 00:05:19.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Monster Hunter]
+[01May2024 00:05:19.217] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['0/20'/14837, l='ServerLevel[world]', x=-212.30, y=78.00, z=-92.70] died: 0/20 was slain by VHSchrome
+[01May2024 00:05:21.809] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['1/3'/15002, l='ServerLevel[world]', x=-212.99, y=48.00, z=-328.90] died: 1/3 was slain by 14/14
+[01May2024 00:05:23.463] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/14869, l='ServerLevel[world]', x=-244.46, y=8.00, z=-11.59] died: 2/10 drowned
+[01May2024 00:05:26.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [Suit Up]
+[01May2024 00:05:37.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome was shot by 20/20
+[01May2024 00:05:44.559] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['7/25'/14988, l='ServerLevel[world]', x=-231.74, y=122.39, z=-382.34] died: 7/25 was slain by 100/100
+[01May2024 00:06:13.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Sweet Dreams]
+[01May2024 00:06:24.474] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/15248, l='ServerLevel[world]', x=-41.35, y=70.00, z=-88.91] died: 1/20 was slain by VHSchrome
+[01May2024 00:06:39.915] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['10/10'/15721, l='ServerLevel[world]', x=-94.34, y=-1.00, z=-178.45] died: 10/10 fell from a high place
+[01May2024 00:07:21.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome froze to death
+[01May2024 00:07:37.759] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/15900, l='ServerLevel[world]', x=-209.15, y=47.67, z=-324.01] died: 2/4 was slain by 11/14
+[01May2024 00:08:03.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Kicked VHSchrome: Kicked by an operator]
+[01May2024 00:08:03.514] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VHSchrome lost connection: Kicked by an operator
+[01May2024 00:08:03.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome left the game
+[01May2024 00:08:03.517] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 490516b0-dfc1-3060-a481-11d3d233cccc was unloaded
+[01May2024 00:08:16.082] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VHSchrome[/89.207.78.88:59132] logged in with entity id 16327 at (-72.09373289127845, 88.0, -80.39909167051476)
+[01May2024 00:08:16.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome joined the game
+[01May2024 00:08:16.287] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 490516b0-dfc1-3060-a481-11d3d233cccc was loaded
+[01May2024 00:08:22.459] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['1/20'/16054, l='ServerLevel[world]', x=-289.44, y=90.00, z=-442.47] died: 1/20 burned to death
+[01May2024 00:08:25.511] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/15886, l='ServerLevel[world]', x=-281.43, y=142.00, z=-355.53] died: 1/20 burned to death
+[01May2024 00:08:25.810] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/15830, l='ServerLevel[world]', x=-308.39, y=141.00, z=-321.64] died: 1/20 burned to death
+[01May2024 00:08:30.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [What a Deal!]
+[01May2024 00:08:44.111] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/16463, l='ServerLevel[world]', x=-299.00, y=23.00, z=-389.57] died: 2/10 drowned
+[01May2024 00:08:45.888] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['4/25'/15891, l='ServerLevel[world]', x=-246.66, y=128.00, z=-337.91] died: 4/25 was slain by ibah
+[01May2024 00:08:48.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Source of Evil]
+[01May2024 00:09:28.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome hit the ground too hard whilst trying to escape 60/60
+[01May2024 00:09:57.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome was slain by 52/60
+[01May2024 00:10:04.759] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['2/4'/10993, l='ServerLevel[world]', x=-284.83, y=144.00, z=-350.59] died: 2/4 was slain by 6/10
+[01May2024 00:10:13.308] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Salmon['1/3'/426, l='ServerLevel[world]', x=-22.73, y=62.69, z=21.52] died: 1/3 suffocated in a wall
+[01May2024 00:10:14.114] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/17391, l='ServerLevel[world]', x=-19.63, y=-44.89, z=-12.52] died: 2/6 tried to swim in lava
+[01May2024 00:10:52.559] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Salmon['1/3'/14314, l='ServerLevel[world]', x=-31.83, y=62.69, z=10.17] died: 1/3 suffocated in a wall
+[01May2024 00:11:02.614] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/17920, l='ServerLevel[world]', x=-102.40, y=8.00, z=-167.38] died: 2/10 drowned
+[01May2024 00:11:17.613] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/18046, l='ServerLevel[world]', x=-176.05, y=-18.00, z=-106.40] died: 2/10 drowned
+[01May2024 00:11:31.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome was slain by 59/60
+[01May2024 00:12:39.414] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['4/4'/19649, l='ServerLevel[world]', x=-179.65, y=-27.00, z=-174.15] died: 4/4 fell from a high place
+[01May2024 00:12:58.214] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/19658, l='ServerLevel[world]', x=-285.60, y=25.00, z=-98.30] died: 2/4 drowned
+[01May2024 00:13:03.065] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/19689, l='ServerLevel[world]', x=-208.30, y=-38.00, z=-114.55] died: 2/10 drowned
+[01May2024 00:13:17.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BoomBox1k> xaero-waypoint:home:H:-235:125:-375:5:false:0:Internal-overworld-waypoints
+[01May2024 00:13:23.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VHSchrome> home
+[01May2024 00:13:41.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [Isn't It Iron Pick]
+[01May2024 00:14:52.763] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/20454, l='ServerLevel[world]', x=-138.65, y=-43.00, z=-370.25] died: 2/10 drowned
+[01May2024 00:15:36.812] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/20653, l='ServerLevel[world]', x=-139.60, y=-26.00, z=-397.40] died: 2/10 drowned
+[01May2024 00:15:41.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah was slain by VHSchrome
+[01May2024 00:15:43.313] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['4/4'/20737, l='ServerLevel[world]', x=-137.41, y=-18.00, z=-378.01] died: 4/4 fell from a high place
+[01May2024 00:15:44.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Source of Evil]
+[01May2024 00:15:44.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Isn't It Iron Pick]
+[01May2024 00:15:44.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Stone Age]
+[01May2024 00:15:56.362] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/20711, l='ServerLevel[world]', x=-101.17, y=25.58, z=-411.47] died: 2/6 tried to swim in lava
+[01May2024 00:16:06.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome was slain by ibah
+[01May2024 00:16:44.459] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityCyclops['7/35'/20479, l='ServerLevel[world]', x=-246.36, y=134.39, z=-375.42] died: 7/35 was slain by 98/100
+[01May2024 00:17:00.310] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/20963, l='ServerLevel[world]', x=-210.28, y=46.19, z=-339.20] died: 2/4 was slain by 10/14
+[01May2024 00:17:03.611] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/20964, l='ServerLevel[world]', x=-211.85, y=46.43, z=-338.17] died: 2/4 was slain by 10/14
+[01May2024 00:17:58.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [Source of Evil]
+[01May2024 00:19:29.063] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/21269, l='ServerLevel[world]', x=-251.30, y=66.95, z=-242.70] died: 1/20 suffocated in a wall
+[01May2024 00:19:45.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Getting an Upgrade]
+[01May2024 00:20:40.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Sweet Dreams]
+[01May2024 00:20:52.662] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['9/20'/21724, l='ServerLevel[world]', x=-268.65, y=140.39, z=-359.31] died: 9/20 was slain by 94/100
+[01May2024 00:20:53.511] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['2/4'/10992, l='ServerLevel[world]', x=-278.45, y=139.00, z=-377.84] died: 2/4 was slain by 6/10
+[01May2024 00:21:02.810] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['11/20'/21693, l='ServerLevel[world]', x=-267.94, y=142.00, z=-358.60] died: 11/20 was slain by 94/100
+[01May2024 00:21:09.963] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/21609, l='ServerLevel[world]', x=-179.36, y=-11.60, z=-313.39] died: 1/6 burned to death
+[01May2024 00:21:27.110] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/21894, l='ServerLevel[world]', x=-263.60, y=138.00, z=-362.70] died: 4/20 was slain by 94/100
+[01May2024 00:21:31.661] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['2/4'/11245, l='ServerLevel[world]', x=-301.73, y=144.00, z=-370.01] died: 2/4 was slain by 6/10
+[01May2024 00:21:44.665] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/21921, l='ServerLevel[world]', x=-235.91, y=65.00, z=-251.41] died: 2/4 drowned
+[01May2024 00:21:54.462] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['1/3'/15014, l='ServerLevel[world]', x=-215.75, y=57.32, z=-319.14] died: 1/3 was slain by 10/14
+[01May2024 00:21:56.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [A Seedy Place]
+[01May2024 00:21:57.413] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['1/3'/15017, l='ServerLevel[world]', x=-218.75, y=55.86, z=-322.54] died: 1/3 was slain by 10/14
+[01May2024 00:22:39.664] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/22093, l='ServerLevel[world]', x=-300.22, y=23.00, z=-394.63] died: 2/10 drowned
+[01May2024 00:22:47.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Stay dead]
+[01May2024 00:22:47.211] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['4/25'/22130, l='ServerLevel[world]', x=-269.12, y=143.00, z=-369.89] died: 4/25 was slain by 94/100
+[01May2024 00:22:50.311] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['5/25'/22132, l='ServerLevel[world]', x=-270.40, y=142.70, z=-369.19] died: 5/25 was slain by 94/100
+[01May2024 00:22:50.862] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/11745, l='ServerLevel[world]', x=-349.50, y=84.00, z=-304.50] died: 2/14 died from dehydration
+[01May2024 00:23:31.087] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/22169, l='ServerLevel[world]', x=-232.41, y=125.00, z=-370.41] died: 3/20 was slain by BoomBox1k
+[01May2024 00:23:59.512] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['2/25'/22131, l='ServerLevel[world]', x=-268.96, y=143.00, z=-373.77] died: 2/25 was slain by 94/100
+[01May2024 00:24:23.863] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['3/20'/22211, l='ServerLevel[world]', x=-327.68, y=38.49, z=-309.76] died: 3/20 tried to swim in lava
+[01May2024 00:25:11.413] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['1/4'/10588, l='ServerLevel[world]', x=-260.92, y=137.58, z=-361.80] died: 1/4 was slain by 10/10
+[01May2024 00:25:14.212] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['1/4'/20648, l='ServerLevel[world]', x=-261.40, y=138.00, z=-362.11] died: 1/4 was slain by 10/10
+[01May2024 00:25:45.766] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/22587, l='ServerLevel[world]', x=-184.37, y=23.00, z=-345.56] died: 2/10 drowned
+[01May2024 00:25:47.864] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/22586, l='ServerLevel[world]', x=-181.22, y=25.00, z=-348.13] died: 2/10 drowned
+[01May2024 00:27:23.963] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EnderMan['1/40'/21411, l='ServerLevel[world]', x=-251.76, y=129.00, z=-378.95] died: 1/40 was slain by 80/100
+[01May2024 00:27:27.870] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/22968, l='ServerLevel[world]', x=-171.15, y=58.00, z=-444.80] died: 2/4 drowned
+[01May2024 00:27:28.765] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['2/20'/22464, l='ServerLevel[world]', x=-330.27, y=42.98, z=-309.70] died: 2/20 tried to swim in lava
+[01May2024 00:27:34.896] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['3/3'/15015, l='ServerLevel[world]', x=-207.70, y=57.82, z=-335.85] died: 3/3 was slain by ibah
+[01May2024 00:27:47.465] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/23079, l='ServerLevel[world]', x=-132.40, y=-28.00, z=-374.40] died: 2/10 drowned
+[01May2024 00:27:51.121] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/23080, l='ServerLevel[world]', x=-137.44, y=-29.00, z=-372.60] died: 2/10 drowned
+[01May2024 00:28:12.065] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/22899, l='ServerLevel[world]', x=-266.39, y=95.00, z=-483.51] died: 1/20 burned to death
+[01May2024 00:28:44.914] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/22506, l='ServerLevel[world]', x=-282.70, y=143.00, z=-339.51] died: 1/20 burned to death
+[01May2024 00:28:54.467] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/23412, l='ServerLevel[world]', x=-116.57, y=-28.00, z=-322.40] died: 2/10 drowned
+[01May2024 00:29:24.242] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EnderMan['2/40'/23395, l='ServerLevel[world]', x=-228.65, y=56.00, z=-309.50] died: 2/40 was slain by ibah
+[01May2024 00:29:32.293] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EnderMan['1/40'/23396, l='ServerLevel[world]', x=-227.54, y=56.00, z=-308.59] died: 1/40 was slain by ibah
+[01May2024 00:31:16.568] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/23590, l='ServerLevel[world]', x=-326.50, y=14.00, z=-124.50] died: 2/14 died from dehydration
+[01May2024 00:31:26.592] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['4/16'/23651, l='ServerLevel[world]', x=-262.20, y=40.15, z=-257.94] died: 4/16 was slain by ibah
+[01May2024 00:31:30.095] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['1/16'/23650, l='ServerLevel[world]', x=-262.09, y=39.00, z=-256.99] died: 1/16 was slain by ibah
+[01May2024 00:32:24.715] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['2/20'/23684, l='ServerLevel[world]', x=-330.28, y=40.34, z=-309.85] died: 2/20 tried to swim in lava
+[01May2024 00:32:46.366] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/24404, l='ServerLevel[world]', x=-290.41, y=-35.00, z=-154.30] died: 2/10 drowned
+[01May2024 00:33:51.668] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/24672, l='ServerLevel[world]', x=-181.53, y=23.00, z=-344.73] died: 2/4 drowned
+[01May2024 00:33:51.669] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/24673, l='ServerLevel[world]', x=-181.52, y=23.00, z=-345.71] died: 2/4 drowned
+[01May2024 00:34:38.694] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-274, y=45, z=-264} BlockPos{x=-273, y=44, z=-265}
+[01May2024 00:34:38.742] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-274, y=45, z=-264} BlockPos{x=-273, y=44, z=-265}
+[01May2024 00:34:59.546] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/24295, l='ServerLevel[world]', x=-261.20, y=48.00, z=-278.34] died: 0/20 was slain by ibah
+[01May2024 00:35:45.216] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/25250, l='ServerLevel[world]', x=-213.49, y=40.26, z=-329.85] died: 2/4 was slain by 11/14
+[01May2024 00:37:37.568] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/17740, l='ServerLevel[world]', x=-349.50, y=85.00, z=-303.50] died: 2/14 died from dehydration
+[01May2024 00:37:45.318] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['1/20'/25613, l='ServerLevel[world]', x=-322.35, y=38.99, z=-312.04] died: 1/20 burned to death
+[01May2024 00:37:52.566] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/25815, l='ServerLevel[world]', x=-210.70, y=47.40, z=-346.36] died: 2/4 was slain by 11/14
+[01May2024 00:38:26.619] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/25931, l='ServerLevel[world]', x=-295.70, y=21.00, z=-329.89] died: 2/10 drowned
+[01May2024 00:38:28.568] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/25942, l='ServerLevel[world]', x=-293.57, y=26.00, z=-326.30] died: 2/10 drowned
+[01May2024 00:39:28.119] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/26193, l='ServerLevel[world]', x=-297.85, y=23.00, z=-389.67] died: 2/10 drowned
+[01May2024 00:39:32.327] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/25803, l='ServerLevel[world]', x=-239.68, y=127.94, z=-365.12] died: 1/20 was slain by BoomBox1k
+[01May2024 00:39:53.819] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/26131, l='ServerLevel[world]', x=-330.58, y=38.06, z=-308.54] died: 2/6 tried to swim in lava
+[01May2024 00:40:26.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome was shot by 20/20
+[01May2024 00:40:26.500] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['3/20'/26451, l='ServerLevel[world]', x=-234.70, y=122.00, z=-326.70] died: 3/20 was slain by ibah
+[01May2024 00:40:28.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah was shot by 20/20
+[01May2024 00:40:29.217] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['1/20'/11043, l='ServerLevel[world]', x=-260.72, y=138.00, z=-382.70] died, message: '1/20 was slain by 25/25'
+[01May2024 00:40:29.218] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['1/20'/11043, l='ServerLevel[world]', x=-260.72, y=138.00, z=-382.70] died: 1/20 was slain by 25/25
+[01May2024 00:40:35.017] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['2/20'/11085, l='ServerLevel[world]', x=-260.30, y=138.00, z=-382.70] died, message: '2/20 was slain by 25/25'
+[01May2024 00:40:35.017] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['2/20'/11085, l='ServerLevel[world]', x=-260.30, y=138.00, z=-382.70] died: 2/20 was slain by 25/25
+[01May2024 00:40:47.224] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/26198, l='ServerLevel[world]', x=-235.70, y=120.00, z=-332.30] died: 1/20 was slain by VHSchrome
+[01May2024 00:42:02.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [A Seedy Place]
+[01May2024 00:42:36.915] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/27000, l='ServerLevel[world]', x=-209.65, y=45.36, z=-347.56] died: 2/4 was slain by 8/14
+[01May2024 00:43:19.849] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/27121, l='ServerLevel[world]', x=-230.68, y=123.94, z=-368.34] died: 0/20 was slain by ibah
+[01May2024 00:43:24.497] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/27120, l='ServerLevel[world]', x=-230.90, y=124.00, z=-366.03] died: 0/20 was slain by ibah
+[01May2024 00:43:27.118] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityCyclops['12/35'/24877, l='ServerLevel[world]', x=-245.12, y=129.00, z=-384.07] died: 12/35 was slain by 80/100
+[01May2024 00:43:41.501] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/27113, l='ServerLevel[world]', x=-236.67, y=123.94, z=-359.38] died: 4/20 was slain by ibah
+[01May2024 00:44:01.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome was slain by ibah
+[01May2024 00:44:09.319] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['13/20'/27122, l='ServerLevel[world]', x=-235.32, y=123.00, z=-380.40] died: 13/20 was slain by 76/100
+[01May2024 00:44:17.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah hit the ground too hard
+[01May2024 00:44:32.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Acquire Hardware]
+[01May2024 00:44:40.616] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/27397, l='ServerLevel[world]', x=-207.38, y=42.29, z=-323.64] died: 2/4 was slain by 8/14
+[01May2024 00:45:06.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome was slain by 43/50
+[01May2024 00:45:24.366] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/27476, l='ServerLevel[world]', x=-248.76, y=121.08, z=-388.99] died: 5/20 was slain by 76/100
+[01May2024 00:45:36.816] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityPumpkinSpider['7/50'/26122, l='ServerLevel[world]', x=-251.04, y=124.88, z=-399.35] died: 7/50 was slain by 76/100
+[01May2024 00:46:00.544] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['1/25'/25802, l='ServerLevel[world]', x=-262.51, y=138.00, z=-382.70] died: 1/25 was slain by ibah
+[01May2024 00:46:04.748] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Fox['1/10'/10830, l='ServerLevel[world]', x=-261.48, y=138.00, z=-382.30] died: 1/10 was slain by ibah
+[01May2024 00:46:10.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome was slain by 5/20
+[01May2024 00:46:14.471] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/27682, l='ServerLevel[world]', x=-243.77, y=127.00, z=-368.50] died: 2/20 was slain by BoomBox1k
+[01May2024 00:46:16.119] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/27782, l='ServerLevel[world]', x=-181.48, y=23.00, z=-344.32] died: 2/10 drowned
+[01May2024 00:46:54.367] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/17738, l='ServerLevel[world]', x=-344.50, y=86.00, z=-303.50] died: 2/14 died from dehydration
+[01May2024 00:47:55.219] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/28162, l='ServerLevel[world]', x=-206.54, y=74.00, z=-355.50] died: 2/4 drowned
+[01May2024 00:48:23.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [A Seedy Place]
+[01May2024 00:48:52.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BoomBox1k: Current season is Early Spring, day 6/8, tick 986/24000]
+[01May2024 00:49:15.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah was slain by 30/35
+[01May2024 00:49:29.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome was slain by 4/35
+[01May2024 00:49:41.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/11746, l='ServerLevel[world]', x=-348.50, y=87.00, z=-301.50] died: 2/14 died from dehydration
+[01May2024 00:49:49.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k was slain by 2/35
+[01May2024 00:49:57.469] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/17741, l='ServerLevel[world]', x=-348.50, y=85.00, z=-303.50] died: 2/14 died from dehydration
+[01May2024 00:50:48.966] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/11731, l='ServerLevel[world]', x=-347.50, y=86.00, z=-302.50] died: 2/14 died from dehydration
+[01May2024 00:51:40.418] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/28932, l='ServerLevel[world]', x=-316.62, y=23.00, z=-377.05] died: 2/10 drowned
+[01May2024 00:52:48.700] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['5/10'/10552, l='ServerLevel[world]', x=-167.51, y=72.00, z=-394.54] died: 5/10 was slain by ibah
+[01May2024 00:52:58.000] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['5/10'/10551, l='ServerLevel[world]', x=-172.54, y=79.00, z=-381.46] died: 5/10 was slain by ibah
+[01May2024 00:54:18.869] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/29718, l='ServerLevel[world]', x=-234.64, y=41.45, z=-307.18] died: 2/4 was slain by 8/14
+[01May2024 00:54:31.298] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['0/10'/84, l='ServerLevel[world]', x=-114.56, y=71.00, z=-174.77] died: 0/10 was slain by ibah
+[01May2024 00:54:34.702] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['1/10'/82, l='ServerLevel[world]', x=-115.61, y=72.00, z=-170.45] died: 1/10 was slain by ibah
+[01May2024 00:54:39.552] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['1/10'/83, l='ServerLevel[world]', x=-130.77, y=71.77, z=-175.83] died: 1/10 was slain by ibah
+[01May2024 00:54:39.920] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/29729, l='ServerLevel[world]', x=-180.67, y=-3.00, z=-170.40] died: 2/10 drowned
+[01May2024 00:54:45.849] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['0/10'/85, l='ServerLevel[world]', x=-100.86, y=71.00, z=-174.16] died: 0/10 was slain by ibah
+[01May2024 00:55:04.471] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/29771, l='ServerLevel[world]', x=-105.40, y=-7.65, z=-107.37] died: 1/20 suffocated in a wall
+[01May2024 00:55:11.049] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['0/10'/118, l='ServerLevel[world]', x=-163.65, y=80.00, z=-120.44] died: 0/10 was slain by ibah
+[01May2024 00:55:15.945] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['5/10'/119, l='ServerLevel[world]', x=-169.01, y=80.00, z=-111.22] died: 5/10 was slain by ibah
+[01May2024 00:55:19.000] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['3/8'/124, l='ServerLevel[world]', x=-169.86, y=77.00, z=-112.56] died: 3/8 was slain by ibah
+[01May2024 00:55:20.029] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/30061, l='ServerLevel[world]', x=-156.78, y=26.35, z=-21.62] died: 1/6 burned to death
+[01May2024 00:55:24.748] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['3/8'/29482, l='ServerLevel[world]', x=-166.37, y=80.00, z=-123.28] died: 3/8 was slain by ibah
+[01May2024 00:55:35.348] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['2/10'/121, l='ServerLevel[world]', x=-162.53, y=80.00, z=-113.78] died: 2/10 was slain by ibah
+[01May2024 00:55:40.746] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['5/10'/120, l='ServerLevel[world]', x=-150.49, y=80.00, z=-98.95] died: 5/10 was slain by ibah
+[01May2024 00:55:57.599] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['1/8'/29620, l='ServerLevel[world]', x=-198.55, y=80.00, z=-78.39] died: 1/8 was slain by ibah
+[01May2024 00:56:03.197] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['3/8'/29592, l='ServerLevel[world]', x=-209.93, y=81.00, z=-81.81] died: 3/8 was slain by ibah
+[01May2024 00:56:08.925] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['3/20'/29517, l='ServerLevel[world]', x=-224.51, y=121.18, z=-359.77] died: 3/20 was slain by VHSchrome
+[01May2024 00:56:11.224] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['4/4'/30453, l='ServerLevel[world]', x=-172.35, y=16.00, z=-113.03] died: 4/4 fell from a high place
+[01May2024 00:56:24.520] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/30377, l='ServerLevel[world]', x=-181.57, y=8.00, z=-48.60] died: 2/10 drowned
+[01May2024 00:56:29.620] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/30434, l='ServerLevel[world]', x=-181.19, y=-22.00, z=-76.69] died: 2/10 drowned
+[01May2024 00:56:31.873] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/30433, l='ServerLevel[world]', x=-171.40, y=-10.00, z=-106.34] died: 2/10 drowned
+[01May2024 00:56:34.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Light as a Rabbit]
+[01May2024 00:56:57.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/30620, l='ServerLevel[world]', x=-183.60, y=-23.00, z=-81.54] died: 2/10 drowned
+[01May2024 00:57:23.121] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/30800, l='ServerLevel[world]', x=-184.40, y=5.00, z=-42.48] died: 2/10 drowned
+[01May2024 00:57:25.020] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/30816, l='ServerLevel[world]', x=-244.08, y=-26.00, z=-44.33] died: 2/10 drowned
+[01May2024 00:58:07.069] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/31243, l='ServerLevel[world]', x=-229.94, y=43.24, z=-307.67] died: 2/4 was slain by 8/14
+[01May2024 00:58:10.098] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['3/8'/30006, l='ServerLevel[world]', x=-331.79, y=87.00, z=-93.14] died: 3/8 was slain by ibah
+[01May2024 00:58:13.303] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Rabbit['3/3'/30007, l='ServerLevel[world]', x=-329.51, y=88.00, z=-83.20] died: 3/3 was slain by ibah
+[01May2024 00:58:20.452] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Rabbit['1/3'/30001, l='ServerLevel[world]', x=-320.43, y=89.70, z=-68.62] died: 1/3 was slain by ibah
+[01May2024 00:58:21.798] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['4/4'/30002, l='ServerLevel[world]', x=-323.89, y=90.00, z=-69.04] died: 4/4 was slain by ibah
+[01May2024 00:58:24.201] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['1/8'/30033, l='ServerLevel[world]', x=-327.55, y=90.00, z=-75.62] died: 1/8 was slain by ibah
+[01May2024 00:58:35.026] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/31373, l='ServerLevel[world]', x=-171.15, y=58.00, z=-444.73] died: 2/4 drowned
+[01May2024 01:00:03.721] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['3/20'/31896, l='ServerLevel[world]', x=-424.30, y=-35.74, z=-1.89] died: 3/20 tried to swim in lava
+[01May2024 01:00:34.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Ice Bucket Challenge]
+[01May2024 01:00:39.623] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Drowned['0/20'/31774, l='ServerLevel[world]', x=-605.55, y=50.00, z=85.45] died: 0/20 discovered the floor was lava
+[01May2024 01:00:51.806] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['0/20'/32093, l='ServerLevel[world]', x=-454.30, y=84.00, z=15.07] died: 0/20 was slain by ibah
+[01May2024 01:01:06.902] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/32354, l='ServerLevel[world]', x=-455.96, y=83.00, z=13.09] died: 0/20 was slain by ibah
+[01May2024 01:01:43.520] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/30032, l='ServerLevel[world]', x=-339.50, y=19.00, z=-84.48] died: 2/14 died from dehydration
+[01May2024 01:01:47.768] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['2/4'/11246, l='ServerLevel[world]', x=-309.64, y=128.00, z=-393.38] died: 2/4 was slain by 4/10
+[01May2024 01:01:52.568] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['2/4'/11247, l='ServerLevel[world]', x=-309.66, y=129.00, z=-391.45] died: 2/4 was slain by 4/10
+[01May2024 01:02:00.299] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/32437, l='ServerLevel[world]', x=-492.45, y=56.90, z=-64.72] died: 1/20 was slain by ibah
+[01May2024 01:02:23.824] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/32825, l='ServerLevel[world]', x=-258.65, y=132.94, z=-387.68] died: 3/20 was doomed to fall by 73/100
+[01May2024 01:02:27.369] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/32824, l='ServerLevel[world]', x=-262.51, y=139.00, z=-382.19] died: 4/20 was slain by 73/100
+[01May2024 01:03:09.249] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/33162, l='ServerLevel[world]', x=-568.07, y=65.00, z=-214.82] died: 3/20 was slain by ibah
+[01May2024 01:03:09.868] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/33367, l='ServerLevel[world]', x=-262.46, y=135.94, z=-387.34] died: 4/20 was slain by 65/100
+[01May2024 01:03:15.721] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/33018, l='ServerLevel[world]', x=-238.82, y=48.63, z=-303.62] died: 2/4 was slain by 8/14
+[01May2024 01:03:16.401] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/33128, l='ServerLevel[world]', x=-565.97, y=66.00, z=-219.14] died: 3/20 was slain by ibah
+[01May2024 01:03:21.847] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/33129, l='ServerLevel[world]', x=-565.73, y=65.00, z=-226.57] died: 0/20 was slain by ibah
+[01May2024 01:03:54.670] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/11744, l='ServerLevel[world]', x=-356.50, y=85.00, z=-308.50] died: 2/14 died from dehydration
+[01May2024 01:05:14.373] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['4/20'/34017, l='ServerLevel[world]', x=-329.15, y=57.44, z=-309.95] died: 4/20 tried to swim in lava
+[01May2024 01:05:26.920] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/32659, l='ServerLevel[world]', x=-210.78, y=56.51, z=-329.65] died: 2/4 was slain by 8/14
+[01May2024 01:06:08.247] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['5/20'/34255, l='ServerLevel[world]', x=-398.42, y=119.00, z=-373.09] died: 5/20 was slain by ibah
+[01May2024 01:06:10.571] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/34284, l='ServerLevel[world]', x=-183.63, y=25.00, z=-348.91] died: 2/10 drowned
+[01May2024 01:06:13.851] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['0/20'/34129, l='ServerLevel[world]', x=-398.36, y=120.25, z=-372.41] died: 0/20 was slain by ibah
+[01May2024 01:06:58.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k has made the advancement [The Andesite Age]
+[01May2024 01:07:07.918] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['8/20'/34419, l='ServerLevel[world]', x=-259.14, y=142.00, z=-366.71] died: 8/20 was slain by 61/100
+[01May2024 01:07:13.467] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['20/20'/34418, l='ServerLevel[world]', x=-265.44, y=141.00, z=-362.93] died: 20/20 was slain by 61/100
+[01May2024 01:07:22.321] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/15470, l='ServerLevel[world]', x=-347.62, y=85.00, z=-304.48] died: 2/14 died from dehydration
+[01May2024 01:07:36.067] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EnderMan['7/40'/26669, l='ServerLevel[world]', x=-271.97, y=142.17, z=-365.31] died: 7/40 was slain by 54/100
+[01May2024 01:07:48.362] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/34465, l='ServerLevel[world]', x=-233.52, y=125.44, z=-377.68] died: 0/20 was slain by VHSchrome
+[01May2024 01:07:55.419] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/34466, l='ServerLevel[world]', x=-232.99, y=124.00, z=-379.82] died: 0/20 was burnt to a crisp whilst fighting VHSchrome
+[01May2024 01:08:03.718] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['1/25'/34338, l='ServerLevel[world]', x=-208.50, y=72.00, z=-446.84] died: 1/25 burned to death
+[01May2024 01:10:59.467] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/11732, l='ServerLevel[world]', x=-345.50, y=87.00, z=-325.50] died: 2/14 died from dehydration
+[01May2024 01:11:09.521] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['18/20'/11048, l='ServerLevel[world]', x=-238.26, y=126.00, z=-370.35] died, message: '18/20 was blown up by 15/20'
+[01May2024 01:11:09.521] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['18/20'/11048, l='ServerLevel[world]', x=-238.26, y=126.00, z=-370.35] died: 18/20 was blown up by 15/20
+[01May2024 01:12:38.072] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/35293, l='ServerLevel[world]', x=-187.60, y=20.00, z=-339.62] died: 2/10 drowned
+[01May2024 01:12:47.269] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/35377, l='ServerLevel[world]', x=-207.15, y=40.68, z=-325.15] died: 2/4 was slain by 8/14
+[01May2024 01:14:38.520] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['1/25'/35581, l='ServerLevel[world]', x=-241.59, y=126.00, z=-385.42] died: 1/25 burned to death
+[01May2024 01:16:14.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Suit Up]
+[01May2024 01:18:25.221] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/36073, l='ServerLevel[world]', x=-206.15, y=51.00, z=-341.73] died: 2/4 was slain by 8/14
+[01May2024 01:20:09.401] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['1/20'/36378, l='ServerLevel[world]', x=-233.60, y=125.00, z=-365.06] died: 1/20 was slain by ibah
+[01May2024 01:20:16.917] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityPumpkinSpider['17/50'/36422, l='ServerLevel[world]', x=-257.99, y=140.00, z=-361.90] died: 17/50 was slain by 40/100
+[01May2024 01:20:24.320] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/36398, l='ServerLevel[world]', x=-293.08, y=21.00, z=-324.40] died: 2/10 drowned
+[01May2024 01:20:27.023] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['5/20'/36286, l='ServerLevel[world]', x=-219.08, y=116.00, z=-357.33] died: 5/20 was slain by VHSchrome
+[01May2024 01:20:36.921] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/36430, l='ServerLevel[world]', x=-290.32, y=20.00, z=-335.15] died: 2/10 drowned
+[01May2024 01:20:42.920] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/36272, l='ServerLevel[world]', x=-211.81, y=42.06, z=-321.15] died: 2/4 was slain by 8/14
+[01May2024 01:20:45.620] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/36269, l='ServerLevel[world]', x=-209.93, y=42.17, z=-323.47] died: 2/4 was slain by 8/14
+[01May2024 01:20:57.461] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityMiner['2/40'/36356, l='ServerLevel[world]', x=-229.72, y=120.25, z=-330.24] died: 2/40 was slain by VHSchrome
+[01May2024 01:21:11.669] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/17739, l='ServerLevel[world]', x=-348.50, y=84.00, z=-312.50] died: 2/14 died from dehydration
+[01May2024 01:22:32.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/36819, l='ServerLevel[world]', x=-163.54, y=19.00, z=-447.70] died: 2/10 drowned
+[01May2024 01:22:47.724] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/36865, l='ServerLevel[world]', x=-185.47, y=25.00, z=-351.54] died: 2/10 drowned
+[01May2024 01:22:55.122] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/36919, l='ServerLevel[world]', x=-133.69, y=-31.00, z=-402.51] died: 2/10 drowned
+[01May2024 01:23:11.573] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/36996, l='ServerLevel[world]', x=-134.47, y=-7.00, z=-374.50] died: 2/10 drowned
+[01May2024 01:23:15.660] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['5/20'/36671, l='ServerLevel[world]', x=-186.46, y=69.00, z=-412.19] died: 5/20 was slain by VHSchrome
+[01May2024 01:23:20.124] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/36926, l='ServerLevel[world]', x=-205.04, y=-6.39, z=-308.24] died: 1/6 tried to swim in lava
+[01May2024 01:23:35.724] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/37066, l='ServerLevel[world]', x=-134.46, y=11.00, z=-378.40] died: 2/10 drowned
+[01May2024 01:23:55.358] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['2/20'/36737, l='ServerLevel[world]', x=-179.35, y=80.00, z=-434.28] died: 2/20 was slain by VHSchrome
+[01May2024 01:24:20.024] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/37236, l='ServerLevel[world]', x=-183.64, y=-13.36, z=-317.02] died: 2/6 tried to swim in lava
+[01May2024 01:24:26.222] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/29710, l='ServerLevel[world]', x=-348.50, y=86.00, z=-302.50] died: 2/14 died from dehydration
+[01May2024 01:24:37.625] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/37266, l='ServerLevel[world]', x=-105.53, y=-17.68, z=-413.74] died: 2/6 tried to swim in lava
+[01May2024 01:24:37.724] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/37280, l='ServerLevel[world]', x=-187.60, y=20.00, z=-340.11] died: 2/10 drowned
+[01May2024 01:24:43.071] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/11743, l='ServerLevel[world]', x=-349.50, y=85.00, z=-303.50] died: 2/14 died from dehydration
+[01May2024 01:24:46.820] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/37048, l='ServerLevel[world]', x=-265.66, y=138.00, z=-385.13] died: 4/20 was slain by 40/100
+[01May2024 01:24:52.224] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/37317, l='ServerLevel[world]', x=-102.81, y=-9.58, z=-411.74] died: 2/6 tried to swim in lava
+[01May2024 01:24:58.971] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/36922, l='ServerLevel[world]', x=-209.47, y=45.69, z=-327.84] died: 2/4 was slain by 6/14
+[01May2024 01:25:14.773] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['2/20'/37250, l='ServerLevel[world]', x=-325.95, y=38.06, z=-310.63] died: 2/20 tried to swim in lava
+[01May2024 01:25:57.024] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/37696, l='ServerLevel[world]', x=-179.85, y=34.00, z=-476.76] died: 2/4 drowned
+[01May2024 01:25:59.074] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/37711, l='ServerLevel[world]', x=-112.71, y=5.00, z=-426.41] died: 2/4 drowned
+[01May2024 01:25:59.126] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/37713, l='ServerLevel[world]', x=-116.70, y=6.00, z=-427.46] died: 2/4 drowned
+[01May2024 01:26:01.226] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/37714, l='ServerLevel[world]', x=-117.85, y=6.00, z=-427.33] died: 2/4 drowned
+[01May2024 01:26:02.276] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/37712, l='ServerLevel[world]', x=-112.81, y=5.00, z=-426.93] died: 2/4 drowned
+[01May2024 01:26:05.072] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['1/3'/15013, l='ServerLevel[world]', x=-210.51, y=54.55, z=-324.54] died: 1/3 was slain by 14/14
+[01May2024 01:26:45.577] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BoomBox1k lost connection: Timed out
+[01May2024 01:26:45.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BoomBox1k left the game
+[01May2024 01:26:45.589] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 985a8fec-8eb3-34b5-bd06-2fd744784146 was unloaded
+[01May2024 01:26:46.930] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VHSchrome lost connection: Disconnected
+[01May2024 01:26:46.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome left the game
+[01May2024 01:26:46.933] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 490516b0-dfc1-3060-a481-11d3d233cccc was unloaded
+[01May2024 01:27:39.970] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['1/3'/15018, l='ServerLevel[world]', x=-212.82, y=55.24, z=-325.82] died: 1/3 was slain by 6/14
+[01May2024 01:28:09.371] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/38116, l='ServerLevel[world]', x=-257.63, y=22.00, z=-192.36] died: 2/10 drowned
+[01May2024 01:28:09.523] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/38115, l='ServerLevel[world]', x=-254.45, y=22.00, z=-193.94] died: 2/10 drowned
+[01May2024 01:28:32.572] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/38167, l='ServerLevel[world]', x=-297.44, y=-42.00, z=-168.35] died: 2/10 drowned
+[01May2024 01:30:37.921] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/36979, l='ServerLevel[world]', x=-345.66, y=84.00, z=-310.45] died: 2/14 died from dehydration
+[01May2024 01:30:53.071] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['1/3'/15016, l='ServerLevel[world]', x=-211.48, y=54.91, z=-319.24] died: 1/3 was slain by 14/14
+[01May2024 01:32:24.224] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/38654, l='ServerLevel[world]', x=-327.44, y=-45.00, z=-187.48] died: 2/10 drowned
+[01May2024 01:32:24.522] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/38655, l='ServerLevel[world]', x=-327.69, y=-45.00, z=-185.02] died: 2/10 drowned
+[01May2024 01:32:26.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/38656, l='ServerLevel[world]', x=-320.54, y=-45.00, z=-188.67] died: 2/10 drowned
+[01May2024 01:32:36.972] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/36977, l='ServerLevel[world]', x=-356.50, y=85.00, z=-310.50] died: 2/14 died from dehydration
+[01May2024 01:32:50.452] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VHSchrome[/89.207.78.88:53276] logged in with entity id 38776 at (-176.30000001192093, 63.0, -434.25537603288564)
+[01May2024 01:32:50.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome joined the game
+[01May2024 01:32:51.155] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 490516b0-dfc1-3060-a481-11d3d233cccc was loaded
+[01May2024 01:34:43.377] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/39040, l='ServerLevel[world]', x=-114.62, y=-24.70, z=-415.79] died: 1/6 burned to death
+[01May2024 01:34:51.925] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/39258, l='ServerLevel[world]', x=-267.70, y=31.95, z=-360.70] died: 1/20 suffocated in a wall
+[01May2024 01:34:57.821] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['1/3'/15001, l='ServerLevel[world]', x=-209.88, y=53.43, z=-325.05] died: 1/3 was slain by 6/14
+[01May2024 01:35:02.582] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/39237, l='ServerLevel[world]', x=-301.17, y=-38.49, z=-156.57] died: 1/6 burned to death
+[01May2024 01:35:07.775] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/38782, l='ServerLevel[world]', x=-180.46, y=44.00, z=-437.52] died: 1/20 burned to death
+[01May2024 01:35:19.525] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/39350, l='ServerLevel[world]', x=-121.06, y=-36.98, z=-427.44] died: 1/6 burned to death
+[01May2024 01:35:24.174] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/38777, l='ServerLevel[world]', x=-174.43, y=36.00, z=-460.18] died: 2/4 drowned
+[01May2024 01:35:29.375] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/39406, l='ServerLevel[world]', x=-103.11, y=-13.91, z=-414.53] died: 1/6 burned to death
+[01May2024 01:35:39.678] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/39398, l='ServerLevel[world]', x=-112.14, y=-18.74, z=-412.55] died: 1/6 burned to death
+[01May2024 01:36:13.678] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['3/20'/39658, l='ServerLevel[world]', x=-421.94, y=-12.82, z=-275.44] died: 3/20 tried to swim in lava
+[01May2024 01:36:18.100] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['0/20'/38659, l='ServerLevel[world]', x=-304.75, y=-26.00, z=-234.38] died: 0/20 was slain by ibah
+[01May2024 01:36:42.300] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['2/20'/38660, l='ServerLevel[world]', x=-302.32, y=-28.23, z=-236.49] died: 2/20 was slain by ibah
+[01May2024 01:36:45.575] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/39736, l='ServerLevel[world]', x=-213.05, y=48.01, z=-330.28] died: 2/4 was slain by 14/14
+[01May2024 01:36:49.224] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/39734, l='ServerLevel[world]', x=-212.85, y=49.28, z=-332.85] died: 2/4 was slain by 14/14
+[01May2024 01:37:12.476] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/39800, l='ServerLevel[world]', x=-327.79, y=-44.00, z=-183.02] died: 2/10 drowned
+[01May2024 01:37:34.925] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/39796, l='ServerLevel[world]', x=-310.12, y=-33.88, z=-152.39] died: 2/6 tried to swim in lava
+[01May2024 01:37:42.652] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-339, y=-24, z=-225} BlockPos{x=-339, y=-25, z=-224}
+[01May2024 01:37:42.699] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-339, y=-24, z=-225} BlockPos{x=-339, y=-25, z=-224}
+[01May2024 01:37:42.755] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-339, y=-24, z=-225} BlockPos{x=-339, y=-25, z=-224}
+[01May2024 01:37:42.804] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-339, y=-24, z=-225} BlockPos{x=-339, y=-25, z=-224}
+[01May2024 01:37:42.855] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-339, y=-24, z=-225} BlockPos{x=-339, y=-25, z=-224}
+[01May2024 01:37:42.899] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-339, y=-24, z=-225} BlockPos{x=-339, y=-25, z=-224}
+[01May2024 01:37:42.953] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-339, y=-24, z=-225} BlockPos{x=-339, y=-25, z=-224}
+[01May2024 01:38:17.803] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/40003, l='ServerLevel[world]', x=-305.63, y=-29.00, z=-226.81] died: 2/20 was slain by ibah
+[01May2024 01:39:30.228] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/40279, l='ServerLevel[world]', x=-103.25, y=-14.25, z=-412.05] died: 2/6 tried to swim in lava
+[01May2024 01:39:40.529] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['3/20'/39877, l='ServerLevel[world]', x=-183.70, y=30.00, z=-453.86] died: 3/20 was slain by VHSchrome
+[01May2024 01:40:03.730] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/40431, l='ServerLevel[world]', x=-330.87, y=-40.00, z=-164.32] died: 2/4 drowned
+[01May2024 01:40:26.925] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['4/20'/40511, l='ServerLevel[world]', x=-270.91, y=63.00, z=-193.19] died: 4/20 was slain by 3/8
+[01May2024 01:40:27.630] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['2/3'/40509, l='ServerLevel[world]', x=-359.34, y=-4.00, z=-223.98] died: 2/3 drowned
+[01May2024 01:40:38.229] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['3/20'/40150, l='ServerLevel[world]', x=-160.59, y=39.00, z=-507.72] died: 3/20 was slain by VHSchrome
+[01May2024 01:41:21.925] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['3/3'/40518, l='ServerLevel[world]', x=-359.50, y=-4.00, z=-224.08] died: 3/3 fell from a high place
+[01May2024 01:41:47.576] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['4/20'/40738, l='ServerLevel[world]', x=-329.34, y=39.51, z=-310.53] died: 4/20 tried to swim in lava
+[01May2024 01:42:16.978] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['1/4'/41041, l='ServerLevel[world]', x=-202.62, y=-3.00, z=-594.07] died: 1/4 drowned
+[01May2024 01:42:37.478] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/41098, l='ServerLevel[world]', x=-85.47, y=-45.00, z=-521.60] died: 2/4 drowned
+[01May2024 01:42:38.778] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/41094, l='ServerLevel[world]', x=-87.05, y=-45.00, z=-519.80] died: 2/4 drowned
+[01May2024 01:42:52.783] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/41153, l='ServerLevel[world]', x=-318.50, y=-51.00, z=-212.86] died: 2/10 drowned
+[01May2024 01:43:28.322] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/39936, l='ServerLevel[world]', x=-348.00, y=-26.00, z=-171.50] died: 2/14 died from dehydration
+[01May2024 01:44:10.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Suit Up]
+[01May2024 01:44:12.178] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/41435, l='ServerLevel[world]', x=-95.86, y=-35.22, z=-530.57] died: 2/6 tried to swim in lava
+[01May2024 01:44:20.627] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/41462, l='ServerLevel[world]', x=-287.14, y=-33.00, z=-155.57] died: 2/4 drowned
+[01May2024 01:45:12.027] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/41638, l='ServerLevel[world]', x=-203.60, y=-3.00, z=-595.47] died: 2/4 drowned
+[01May2024 01:45:21.427] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/41681, l='ServerLevel[world]', x=-80.95, y=2.00, z=-580.45] died: 2/10 drowned
+[01May2024 01:45:27.876] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/41729, l='ServerLevel[world]', x=-359.28, y=-27.00, z=-175.45] died: 2/4 drowned
+[01May2024 01:45:27.926] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/41732, l='ServerLevel[world]', x=-356.72, y=-28.00, z=-179.34] died: 2/4 drowned
+[01May2024 01:45:29.928] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/41730, l='ServerLevel[world]', x=-359.72, y=-27.00, z=-175.65] died: 2/4 drowned
+[01May2024 01:45:30.127] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/41731, l='ServerLevel[world]', x=-355.79, y=-28.00, z=-177.86] died: 2/4 drowned
+[01May2024 01:45:33.026] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['1/3'/41677, l='ServerLevel[world]', x=-355.92, y=-8.68, z=-226.64] died: 1/3 drowned
+[01May2024 01:45:34.925] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['1/3'/41044, l='ServerLevel[world]', x=-361.91, y=-8.65, z=-223.10] died: 1/3 drowned
+[01May2024 01:45:44.550] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['0/20'/41311, l='ServerLevel[world]', x=-333.67, y=-50.75, z=-227.00] died: 0/20 was slain by ibah
+[01May2024 01:45:48.228] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/41508, l='ServerLevel[world]', x=-356.81, y=-50.00, z=-209.14] died: 1/20 was shot by 5/20
+[01May2024 01:45:49.575] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/41735, l='ServerLevel[world]', x=-304.10, y=-33.91, z=-154.16] died: 1/6 burned to death
+[01May2024 01:45:59.501] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/41167, l='ServerLevel[world]', x=-343.02, y=-51.00, z=-218.33] died: 0/20 was slain by ibah
+[01May2024 01:46:09.711] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['0/20'/41486, l='ServerLevel[world]', x=-138.30, y=22.00, z=-566.70] died: 0/20 was slain by VHSchrome
+[01May2024 01:46:15.451] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['5/20'/41380, l='ServerLevel[world]', x=-344.24, y=-51.00, z=-218.30] died: 5/20 was slain by ibah
+[01May2024 01:46:16.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['3/3'/40781, l='ServerLevel[world]', x=-356.19, y=-25.00, z=-231.98] died: 3/3 fell from a high place
+[01May2024 01:46:24.106] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['3/20'/41507, l='ServerLevel[world]', x=-342.20, y=-50.00, z=-204.21] died: 3/20 was slain by ibah
+[01May2024 01:46:29.008] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['1/25'/41315, l='ServerLevel[world]', x=-345.67, y=-49.00, z=-200.09] died: 1/25 was slain by ibah
+[01May2024 01:46:30.907] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['0/25'/41312, l='ServerLevel[world]', x=-347.44, y=-50.00, z=-201.57] died: 0/25 was slain by ibah
+[01May2024 01:46:34.462] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/41469, l='ServerLevel[world]', x=-138.32, y=22.00, z=-566.52] died: 2/20 was slain by VHSchrome
+[01May2024 01:46:37.305] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/41616, l='ServerLevel[world]', x=-345.75, y=-50.00, z=-209.67] died: 1/20 was slain by ibah
+[01May2024 01:46:39.060] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/41509, l='ServerLevel[world]', x=-348.25, y=-50.00, z=-209.13] died: 0/20 was slain by ibah
+[01May2024 01:46:40.007] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/41510, l='ServerLevel[world]', x=-347.24, y=-50.00, z=-206.85] died: 0/20 was slain by ibah
+[01May2024 01:46:41.131] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/41468, l='ServerLevel[world]', x=-138.66, y=22.00, z=-566.66] died: 2/20 was slain by VHSchrome
+[01May2024 01:46:41.503] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['1/25'/39664, l='ServerLevel[world]', x=-345.44, y=-50.00, z=-207.36] died: 1/25 was slain by ibah
+[01May2024 01:46:42.904] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/41618, l='ServerLevel[world]', x=-347.03, y=-50.00, z=-209.48] died: 5/20 was slain by ibah
+[01May2024 01:46:43.954] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityRotatick['1/30'/41427, l='ServerLevel[world]', x=-347.02, y=-50.00, z=-209.65] died: 1/30 was slain by ibah
+[01May2024 01:46:45.556] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/41615, l='ServerLevel[world]', x=-348.73, y=-50.00, z=-210.32] died: 0/20 was slain by ibah
+[01May2024 01:46:47.525] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/42079, l='ServerLevel[world]', x=-118.97, y=-32.00, z=-499.46] died: 2/10 drowned
+[01May2024 01:46:47.702] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/41617, l='ServerLevel[world]', x=-347.43, y=-50.00, z=-211.82] died: 1/20 was slain by ibah
+[01May2024 01:46:48.404] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/40544, l='ServerLevel[world]', x=-345.69, y=-50.00, z=-211.34] died: 3/20 was slain by ibah
+[01May2024 01:46:49.000] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/41986, l='ServerLevel[world]', x=-345.56, y=-50.00, z=-210.55] died: 5/20 was slain by ibah
+[01May2024 01:46:51.405] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/41721, l='ServerLevel[world]', x=-346.64, y=-50.00, z=-215.11] died: 4/20 was slain by ibah
+[01May2024 01:46:53.200] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/41722, l='ServerLevel[world]', x=-345.82, y=-50.00, z=-215.30] died: 5/20 was slain by ibah
+[01May2024 01:46:56.250] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/41171, l='ServerLevel[world]', x=-346.02, y=-50.00, z=-215.03] died: 3/20 was slain by ibah
+[01May2024 01:46:57.900] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/41985, l='ServerLevel[world]', x=-346.36, y=-50.00, z=-214.73] died: 3/20 was slain by ibah
+[01May2024 01:47:00.252] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/42069, l='ServerLevel[world]', x=-346.90, y=-50.00, z=-213.12] died: 0/20 was slain by ibah
+[01May2024 01:47:01.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Diamonds!]
+[01May2024 01:47:19.774] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/42234, l='ServerLevel[world]', x=-77.60, y=-40.85, z=-495.89] died: 2/6 tried to swim in lava
+[01May2024 01:47:39.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Diamonds!]
+[01May2024 01:47:45.126] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/42434, l='ServerLevel[world]', x=-97.20, y=-40.25, z=-530.38] died: 2/6 tried to swim in lava
+[01May2024 01:47:45.977] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['4/16'/42222, l='ServerLevel[world]', x=-101.17, y=7.09, z=-563.80] died: 4/16 was blown up by 17/20
+[01May2024 01:47:53.859] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['6/20'/42288, l='ServerLevel[world]', x=-100.46, y=6.00, z=-562.53] died: 6/20 was slain by VHSchrome
+[01May2024 01:47:56.526] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/42467, l='ServerLevel[world]', x=-96.61, y=-23.92, z=-529.85] died: 2/6 tried to swim in lava
+[01May2024 01:47:59.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Sneak 100]
+[01May2024 01:47:59.725] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/42520, l='ServerLevel[world]', x=-303.58, y=-44.00, z=-178.67] died: 2/10 drowned
+[01May2024 01:48:06.811] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/42581, l='ServerLevel[world]', x=-82.22, y=0.00, z=-566.15] died: 3/20 was slain by VHSchrome
+[01May2024 01:48:07.777] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/42397, l='ServerLevel[world]', x=-86.98, y=1.00, z=-568.90] died: 1/20 was slain by 7/20
+[01May2024 01:48:12.165] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/42582, l='ServerLevel[world]', x=-79.98, y=0.00, z=-567.50] died: 1/20 was slain by VHSchrome
+[01May2024 01:48:15.153] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/42339, l='ServerLevel[world]', x=-346.45, y=-50.00, z=-275.16] died: 2/20 was slain by ibah
+[01May2024 01:48:15.763] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['6/20'/42317, l='ServerLevel[world]', x=-79.76, y=0.00, z=-565.76] died: 6/20 was slain by VHSchrome
+[01May2024 01:48:28.775] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/42700, l='ServerLevel[world]', x=-362.45, y=-21.00, z=-166.20] died: 2/4 drowned
+[01May2024 01:48:45.125] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/42757, l='ServerLevel[world]', x=-391.48, y=10.00, z=-216.60] died: 2/10 drowned
+[01May2024 01:49:07.107] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/42881, l='ServerLevel[world]', x=-117.65, y=7.00, z=-570.39] died: 2/20 was slain by VHSchrome
+[01May2024 01:49:19.358] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/42534, l='ServerLevel[world]', x=-99.89, y=5.85, z=-564.36] died: 2/20 was slain by VHSchrome
+[01May2024 01:49:21.806] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/42993, l='ServerLevel[world]', x=-96.04, y=5.00, z=-564.50] died: 5/20 was slain by VHSchrome
+[01May2024 01:49:43.324] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/42497, l='ServerLevel[world]', x=-78.82, y=-42.22, z=-496.74] died: 2/6 tried to swim in lava
+[01May2024 01:49:47.908] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['2/20'/42915, l='ServerLevel[world]', x=-335.49, y=-54.00, z=-249.52] died: 2/20 was slain by ibah
+[01May2024 01:49:54.227] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/43096, l='ServerLevel[world]', x=-329.60, y=-41.00, z=-165.63] died: 2/10 drowned
+[01May2024 01:49:54.776] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/43094, l='ServerLevel[world]', x=-321.51, y=-41.00, z=-164.83] died: 2/10 drowned
+[01May2024 01:50:13.206] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/43128, l='ServerLevel[world]', x=-86.40, y=4.00, z=-555.66] died: 2/20 was slain by VHSchrome
+[01May2024 01:50:23.509] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/42535, l='ServerLevel[world]', x=-81.35, y=0.00, z=-567.48] died: 2/20 was slain by VHSchrome
+[01May2024 01:50:25.155] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/43127, l='ServerLevel[world]', x=-80.49, y=0.00, z=-566.98] died: 5/20 was slain by VHSchrome
+[01May2024 01:50:32.610] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/43126, l='ServerLevel[world]', x=-81.94, y=0.00, z=-569.56] died: 1/20 was slain by VHSchrome
+[01May2024 01:50:34.705] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/43129, l='ServerLevel[world]', x=-82.98, y=0.00, z=-569.99] died: 1/20 was slain by VHSchrome
+[01May2024 01:50:55.574] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/39938, l='ServerLevel[world]', x=-315.09, y=-50.00, z=-205.09] died: 2/14 died from dehydration
+[01May2024 01:50:55.758] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['5/20'/43243, l='ServerLevel[world]', x=-100.05, y=7.00, z=-551.60] died: 5/20 was slain by VHSchrome
+[01May2024 01:51:10.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Take Aim]
+[01May2024 01:51:12.727] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['8/16'/43240, l='ServerLevel[world]', x=-112.30, y=15.10, z=-556.30] died: 8/16 was shot by VHSchrome
+[01May2024 01:51:31.957] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['2/20'/43392, l='ServerLevel[world]', x=-320.56, y=-51.00, z=-218.50] died: 2/20 was slain by ibah
+[01May2024 01:51:36.202] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['1/20'/43391, l='ServerLevel[world]', x=-327.61, y=-51.00, z=-220.65] died: 1/20 was slain by ibah
+[01May2024 01:52:04.306] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['4/20'/43594, l='ServerLevel[world]', x=-344.90, y=-44.00, z=-187.41] died: 4/20 was slain by ibah
+[01May2024 01:52:11.302] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/43597, l='ServerLevel[world]', x=-348.77, y=-44.00, z=-186.96] died: 4/20 was slain by ibah
+[01May2024 01:52:13.054] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/43596, l='ServerLevel[world]', x=-349.83, y=-45.00, z=-187.71] died: 3/20 was slain by ibah
+[01May2024 01:52:15.054] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/43242, l='ServerLevel[world]', x=-113.70, y=6.00, z=-565.30] died: 2/20 was slain by VHSchrome
+[01May2024 01:52:23.352] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/43055, l='ServerLevel[world]', x=-355.59, y=-49.00, z=-195.48] died: 3/20 was slain by ibah
+[01May2024 01:52:24.455] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/43643, l='ServerLevel[world]', x=-100.70, y=5.00, z=-564.30] died: 1/20 was slain by VHSchrome
+[01May2024 01:52:49.951] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/43725, l='ServerLevel[world]', x=-307.89, y=-44.00, z=-179.93] died: 4/20 was slain by ibah
+[01May2024 01:52:52.851] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/43724, l='ServerLevel[world]', x=-308.57, y=-44.00, z=-176.31] died: 2/20 was slain by ibah
+[01May2024 01:53:13.401] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/43241, l='ServerLevel[world]', x=-100.31, y=4.00, z=-543.43] died: 2/20 was slain by VHSchrome
+[01May2024 01:53:16.974] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['16/16'/44045, l='ServerLevel[world]', x=-297.11, y=-32.69, z=-143.97] died: 16/16 was blown up by 20/20
+[01May2024 01:53:19.051] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['4/20'/44042, l='ServerLevel[world]', x=-297.72, y=-33.00, z=-139.63] died: 4/20 was slain by ibah
+[01May2024 01:53:23.076] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['20/20'/44044, l='ServerLevel[world]', x=-299.94, y=-32.00, z=-130.90] died: 20/20 was blown up by 20/20
+[01May2024 01:53:38.003] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/43959, l='ServerLevel[world]', x=-323.39, y=-32.00, z=-129.83] died: 0/20 was slain by ibah
+[01May2024 01:54:08.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/43601, l='ServerLevel[world]', x=-310.98, y=-41.16, z=-151.78] died: 1/6 tried to swim in lava
+[01May2024 01:54:12.226] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/44164, l='ServerLevel[world]', x=-111.15, y=41.00, z=-548.41] died: 2/4 drowned
+[01May2024 01:54:12.505] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/43840, l='ServerLevel[world]', x=-310.29, y=-43.00, z=-168.47] died: 1/20 was slain by ibah
+[01May2024 01:54:14.302] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['5/20'/44312, l='ServerLevel[world]', x=-87.70, y=3.00, z=-580.24] died: 5/20 was slain by VHSchrome
+[01May2024 01:54:18.500] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/44311, l='ServerLevel[world]', x=-95.22, y=4.00, z=-579.01] died: 2/20 was slain by VHSchrome
+[01May2024 01:54:39.103] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/44205, l='ServerLevel[world]', x=-291.25, y=-44.00, z=-187.12] died: 3/20 was slain by ibah
+[01May2024 01:54:50.003] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/42673, l='ServerLevel[world]', x=-309.12, y=-48.96, z=-199.19] died: 2/20 was slain by ibah
+[01May2024 01:55:18.381] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/44017, l='ServerLevel[world]', x=-117.62, y=7.00, z=-559.70] died: 1/20 was slain by VHSchrome
+[01May2024 01:55:53.358] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['3/20'/43868, l='ServerLevel[world]', x=-291.55, y=-48.00, z=-230.53] died: 3/20 was slain by ibah
+[01May2024 01:55:55.325] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/44793, l='ServerLevel[world]', x=-184.55, y=-3.66, z=-187.61] died: 1/6 burned to death
+[01May2024 01:56:06.321] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['1/20'/43853, l='ServerLevel[world]', x=-347.56, y=-51.30, z=-237.55] died: 1/20 burned to death
+[01May2024 01:56:08.114] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['2/20'/44394, l='ServerLevel[world]', x=-105.24, y=5.00, z=-539.90] died: 2/20 was slain by VHSchrome
+[01May2024 01:56:10.425] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/44842, l='ServerLevel[world]', x=-151.40, y=-34.00, z=-540.60] died: 2/10 drowned
+[01May2024 01:56:23.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/44483, l='ServerLevel[world]', x=-127.60, y=-9.00, z=-525.60] died: 2/10 drowned
+[01May2024 01:56:28.679] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['4/4'/45041, l='ServerLevel[world]', x=-146.80, y=38.00, z=-542.60] died: 4/4 fell from a high place
+[01May2024 01:56:39.231] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityCrawler['0/30'/43331, l='ServerLevel[world]', x=-90.41, y=7.00, z=-541.15] died: 0/30 was slain by VHSchrome
+[01May2024 01:57:13.977] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/45175, l='ServerLevel[world]', x=-86.45, y=-24.00, z=-580.20] died: 2/4 drowned
+[01May2024 01:57:16.712] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/42811, l='ServerLevel[world]', x=-81.43, y=5.00, z=-527.67] died: 5/20 was slain by VHSchrome
+[01May2024 01:57:27.622] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/39937, l='ServerLevel[world]', x=-348.00, y=-26.00, z=-171.50] died: 2/14 died from dehydration
+[01May2024 01:57:34.775] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['6/20'/45176, l='ServerLevel[world]', x=-338.70, y=-45.00, z=-189.30] died: 6/20 was blown up by 19/20
+[01May2024 01:57:49.008] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/45247, l='ServerLevel[world]', x=-332.10, y=-43.00, z=-180.90] died: 2/20 was slain by ibah
+[01May2024 01:57:55.355] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/44995, l='ServerLevel[world]', x=-337.78, y=-44.00, z=-187.72] died: 1/20 was slain by ibah
+[01May2024 01:57:59.427] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['3/20'/45246, l='ServerLevel[world]', x=-336.95, y=-41.00, z=-175.00] died: 3/20 was shot by 8/20
+[01May2024 01:57:59.558] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/45177, l='ServerLevel[world]', x=-339.83, y=-45.00, z=-191.65] died: 4/20 was slain by ibah
+[01May2024 01:58:00.207] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['5/16'/45245, l='ServerLevel[world]', x=-341.84, y=-43.85, z=-193.84] died: 5/16 was slain by ibah
+[01May2024 01:58:01.008] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/45178, l='ServerLevel[world]', x=-342.06, y=-45.00, z=-192.19] died: 3/20 was slain by ibah
+[01May2024 01:58:01.756] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/44994, l='ServerLevel[world]', x=-341.77, y=-45.00, z=-192.54] died: 1/20 was slain by ibah
+[01May2024 01:58:03.654] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/45005, l='ServerLevel[world]', x=-342.31, y=-45.00, z=-192.62] died: 2/20 was slain by ibah
+[01May2024 01:58:04.957] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/44571, l='ServerLevel[world]', x=-342.01, y=-45.00, z=-190.36] died: 4/20 was slain by ibah
+[01May2024 01:58:11.105] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/45248, l='ServerLevel[world]', x=-340.65, y=-41.00, z=-172.76] died: 2/20 was slain by ibah
+[01May2024 01:58:19.053] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/45004, l='ServerLevel[world]', x=-345.66, y=-43.00, z=-181.57] died: 2/20 was slain by ibah
+[01May2024 01:58:38.777] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/45331, l='ServerLevel[world]', x=-113.30, y=-17.00, z=-525.49] died: 2/20 was shot by VHSchrome
+[01May2024 01:58:49.674] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/45471, l='ServerLevel[world]', x=-157.96, y=-17.05, z=-428.70] died: 1/20 suffocated in a wall
+[01May2024 01:58:55.603] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['3/16'/45037, l='ServerLevel[world]', x=-309.86, y=-39.96, z=-160.46] died: 3/16 was slain by ibah
+[01May2024 01:58:56.451] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityRotatick['3/30'/45344, l='ServerLevel[world]', x=-310.11, y=-41.00, z=-161.65] died: 3/30 was slain by ibah
+[01May2024 01:59:05.052] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillager['4/20'/45768, l='ServerLevel[world]', x=-310.94, y=-40.00, z=-156.22] died: 4/20 was slain by ibah
+[01May2024 01:59:24.051] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['1/25'/45769, l='ServerLevel[world]', x=-313.29, y=-42.00, z=-166.01] died: 1/25 was slain by ibah
+[01May2024 01:59:36.551] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityMiner['4/40'/45109, l='ServerLevel[world]', x=-316.19, y=-45.00, z=-187.94] died: 4/40 was slain by ibah
+[01May2024 01:59:50.285] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah lost connection: Disconnected
+[01May2024 01:59:50.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah left the game
+[01May2024 01:59:50.288] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26e65ccf-97a8-36ca-a815-508066571c14 was unloaded
+[01May2024 02:00:13.773] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/46114, l='ServerLevel[world]', x=-81.11, y=2.00, z=-580.54] died: 2/10 drowned
+[01May2024 02:00:34.021] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/45698, l='ServerLevel[world]', x=-122.59, y=-21.00, z=-522.19] died: 2/10 drowned whilst trying to escape VHSchrome
+[01May2024 02:00:42.600] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ibah[/192.168.0.103:64745] logged in with entity id 46257 at (-296.9735727819937, -49.0, -215.3682538178444)
+[01May2024 02:00:42.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah joined the game
+[01May2024 02:00:43.090] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26e65ccf-97a8-36ca-a815-508066571c14 was loaded
+[01May2024 02:00:51.425] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/46216, l='ServerLevel[world]', x=-134.01, y=-2.00, z=-598.50] died: 2/10 drowned
+[01May2024 02:00:57.653] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GhoulEntity['1/20'/46258, l='ServerLevel[world]', x=-289.39, y=-48.00, z=-238.60] died: 1/20 was slain by ibah
+[01May2024 02:01:08.153] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityRotatick['1/30'/46261, l='ServerLevel[world]', x=-283.33, y=-46.98, z=-244.55] died: 1/30 was slain by ibah
+[01May2024 02:01:23.302] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityMiner['3/40'/46260, l='ServerLevel[world]', x=-258.30, y=-49.00, z=-245.30] died: 3/40 was slain by ibah
+[01May2024 02:01:35.257] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityRotatick['1/30'/46117, l='ServerLevel[world]', x=-134.80, y=-27.00, z=-550.43] died: 1/30 was slain by VHSchrome
+[01May2024 02:01:37.403] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['3/20'/46266, l='ServerLevel[world]', x=-259.93, y=-49.00, z=-246.30] died: 3/20 was slain by ibah
+[01May2024 02:01:37.928] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/46579, l='ServerLevel[world]', x=-118.38, y=-30.00, z=-504.74] died: 2/10 drowned
+[01May2024 02:02:05.525] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/46711, l='ServerLevel[world]', x=-354.52, y=-27.00, z=-228.29] died: 2/4 drowned
+[01May2024 02:02:14.725] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/46578, l='ServerLevel[world]', x=-118.45, y=-29.00, z=-506.76] died: 2/10 drowned
+[01May2024 02:02:19.074] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ReaperEntity['4/20'/46501, l='ServerLevel[world]', x=-95.77, y=-32.93, z=-530.90] died: 4/20 tried to swim in lava
+[01May2024 02:03:29.553] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/46280, l='ServerLevel[world]', x=-279.00, y=-40.00, z=-182.30] died: 4/20 was slain by ibah
+[01May2024 02:03:36.851] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/46779, l='ServerLevel[world]', x=-275.70, y=-40.00, z=-187.45] died: 5/20 was slain by ibah
+[01May2024 02:03:37.752] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/46454, l='ServerLevel[world]', x=-275.36, y=-40.00, z=-188.04] died: 5/20 was slain by ibah
+[01May2024 02:03:39.002] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityCrawler['3/30'/46603, l='ServerLevel[world]', x=-274.88, y=-40.00, z=-189.01] died: 3/30 was slain by ibah
+[01May2024 02:03:41.752] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityMiner['3/40'/46778, l='ServerLevel[world]', x=-276.38, y=-41.00, z=-189.67] died: 3/40 was slain by ibah
+[01May2024 02:03:43.004] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['6/20'/46780, l='ServerLevel[world]', x=-274.77, y=-40.00, z=-187.31] died: 6/20 was slain by ibah
+[01May2024 02:04:09.875] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/47064, l='ServerLevel[world]', x=-223.06, y=-26.92, z=-121.64] died: 1/6 burned to death
+[01May2024 02:04:29.603] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['4/25'/46794, l='ServerLevel[world]', x=-283.99, y=-33.00, z=-158.39] died: 4/25 was slain by ibah
+[01May2024 02:04:30.453] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['7/20'/47215, l='ServerLevel[world]', x=-284.24, y=-33.00, z=-157.69] died: 7/20 was slain by ibah
+[01May2024 02:05:16.503] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityTheGrue['4/30'/47396, l='ServerLevel[world]', x=-341.99, y=-51.00, z=-218.42] died: 4/30 was slain by ibah
+[01May2024 02:05:20.704] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['6/20'/47464, l='ServerLevel[world]', x=-343.36, y=-51.00, z=-219.26] died: 6/20 was slain by ibah
+[01May2024 02:05:21.503] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['6/20'/46989, l='ServerLevel[world]', x=-341.41, y=-51.00, z=-219.48] died: 6/20 was slain by ibah
+[01May2024 02:05:22.229] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/47532, l='ServerLevel[world]', x=-153.01, y=26.00, z=-509.56] died: 2/10 drowned
+[01May2024 02:05:34.675] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/46736, l='ServerLevel[world]', x=-355.15, y=-49.12, z=-241.60] died: 2/6 tried to swim in lava
+[01May2024 02:05:45.876] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/47268, l='ServerLevel[world]', x=-183.41, y=-52.53, z=-474.69] died: 1/6 burned to death
+[01May2024 02:05:48.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah burned to death
+[01May2024 02:05:52.022] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 355.80000001192093,116.0,225.19999998807907
+[01May2024 02:06:24.025] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['1/10'/48081, l='ServerLevel[world]', x=-166.93, y=-6.00, z=-535.40] died: 1/10 drowned
+[01May2024 02:07:12.124] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/48371, l='ServerLevel[world]', x=-150.58, y=-34.00, z=-540.43] died: 2/10 drowned
+[01May2024 02:07:29.074] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/48160, l='ServerLevel[world]', x=-96.50, y=-38.83, z=-531.06] died: 2/6 tried to swim in lava
+[01May2024 02:08:30.524] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['1/25'/48762, l='ServerLevel[world]', x=-272.50, y=128.25, z=-311.72] died: 1/25 burned to death
+[01May2024 02:09:09.625] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/49211, l='ServerLevel[world]', x=-106.07, y=-24.11, z=-525.36] died: 1/6 burned to death
+[01May2024 02:09:59.996] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/47658, l='ServerLevel[world]', x=-92.71, y=94.00, z=-487.50] died: 5/20 was slain by VHSchrome
+[01May2024 02:10:03.475] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['1/20'/49534, l='ServerLevel[world]', x=-398.52, y=-17.94, z=-222.65] died: 1/20 burned to death
+[01May2024 02:10:53.525] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['4/20'/49912, l='ServerLevel[world]', x=-392.21, y=-20.50, z=-159.94] died: 4/20 tried to swim in lava
+[01May2024 02:10:54.453] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/49601, l='ServerLevel[world]', x=-362.70, y=-28.00, z=-196.44] died: 1/20 was slain by ibah
+[01May2024 02:11:03.376] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['1/20'/49911, l='ServerLevel[world]', x=-396.69, y=-19.00, z=-158.46] died: 1/20 burned to death
+[01May2024 02:11:08.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityPumpkinSpider['7/50'/49787, l='ServerLevel[world]', x=-179.27, y=72.00, z=-416.77] died: 7/50 was slain by VHSchrome
+[01May2024 02:11:14.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome was slain by 13/50
+[01May2024 02:11:23.175] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/50310, l='ServerLevel[world]', x=-209.15, y=43.80, z=-322.15] died: 2/4 was slain by 6/14
+[01May2024 02:11:26.725] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/50312, l='ServerLevel[world]', x=-210.66, y=45.45, z=-327.53] died: 2/4 was slain by 6/14
+[01May2024 02:11:28.475] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/50324, l='ServerLevel[world]', x=-297.71, y=-23.65, z=-125.25] died: 1/20 suffocated in a wall
+[01May2024 02:11:41.875] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/50429, l='ServerLevel[world]', x=-180.40, y=22.00, z=-339.40] died: 2/10 drowned
+[01May2024 02:11:43.813] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityPumpkinSpider['4/50'/49786, l='ServerLevel[world]', x=-173.46, y=72.00, z=-415.60] died: 4/50 was slain by VHSchrome
+[01May2024 02:13:21.471] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['2/14'/48418, l='ServerLevel[world]', x=-348.50, y=86.00, z=-302.50] died: 2/14 died from dehydration
+[01May2024 02:13:23.474] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/50703, l='ServerLevel[world]', x=-256.25, y=132.94, z=-387.57] died: 1/20 burned to death
+[01May2024 02:13:44.625] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/50897, l='ServerLevel[world]', x=-309.82, y=-38.17, z=-153.09] died: 2/6 tried to swim in lava
+[01May2024 02:13:53.375] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/50984, l='ServerLevel[world]', x=-227.64, y=57.00, z=-314.66] died: 2/4 drowned
+[01May2024 02:14:29.976] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['2/20'/50191, l='ServerLevel[world]', x=-241.70, y=126.75, z=-385.23] died, message: '2/20 was slain by 3/20'
+[01May2024 02:14:29.977] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['2/20'/50191, l='ServerLevel[world]', x=-241.70, y=126.75, z=-385.23] died: 2/20 was slain by 3/20
+[01May2024 02:14:32.126] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/50715, l='ServerLevel[world]', x=-243.54, y=127.00, z=-387.50] died: 1/20 burned to death
+[01May2024 02:14:33.826] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/51024, l='ServerLevel[world]', x=-307.28, y=-39.21, z=-155.46] died: 1/6 burned to death
+[01May2024 02:14:50.924] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/50714, l='ServerLevel[world]', x=-251.48, y=125.00, z=-395.51] died: 3/20 was slain by 37/100
+[01May2024 02:15:01.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TropicalFish['3/3'/48535, l='ServerLevel[world]', x=-355.82, y=-25.00, z=-231.70] died: 3/3 fell from a high place
+[01May2024 02:15:24.823] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/51057, l='ServerLevel[world]', x=-207.80, y=52.82, z=-325.44] died: 2/4 was slain by 6/14
+[01May2024 02:15:51.977] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['2/20'/50460, l='ServerLevel[world]', x=-398.65, y=-20.15, z=-172.72] died: 2/20 tried to swim in lava
+[01May2024 02:16:04.373] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/51023, l='ServerLevel[world]', x=-311.16, y=-36.55, z=-153.13] died: 2/6 tried to swim in lava
+[01May2024 02:16:19.723] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/51536, l='ServerLevel[world]', x=-213.08, y=55.75, z=-328.73] died: 2/4 was slain by 11/14
+[01May2024 02:16:22.574] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/51395, l='ServerLevel[world]', x=-309.94, y=-40.47, z=-152.14] died: 2/6 tried to swim in lava
+[01May2024 02:17:04.074] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/51626, l='ServerLevel[world]', x=-183.64, y=25.00, z=-349.45] died: 2/10 drowned
+[01May2024 02:17:29.072] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/51667, l='ServerLevel[world]', x=-211.18, y=41.94, z=-325.44] died: 2/4 was slain by 3/14
+[01May2024 02:17:31.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/51737, l='ServerLevel[world]', x=-210.27, y=38.07, z=-327.16] died: 2/4 was slain by 3/14
+[01May2024 02:18:40.175] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/51899, l='ServerLevel[world]', x=-300.51, y=20.00, z=-332.24] died: 2/10 drowned
+[01May2024 02:18:40.575] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/51900, l='ServerLevel[world]', x=-298.50, y=20.00, z=-334.46] died: 2/10 drowned
+[01May2024 02:18:42.624] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/51901, l='ServerLevel[world]', x=-298.56, y=20.00, z=-328.40] died: 2/10 drowned
+[01May2024 02:19:07.175] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/52009, l='ServerLevel[world]', x=-392.46, y=-51.64, z=-219.77] died: 1/6 burned to death
+[01May2024 02:19:38.226] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/52008, l='ServerLevel[world]', x=-393.46, y=-54.90, z=-220.70] died: 2/6 tried to swim in lava
+[01May2024 02:20:01.023] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/51942, l='ServerLevel[world]', x=-214.85, y=53.72, z=-325.30] died: 2/4 was slain by 3/14
+[01May2024 02:20:08.723] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/52080, l='ServerLevel[world]', x=-206.15, y=57.28, z=-327.76] died: 2/4 was slain by 8/14
+[01May2024 02:20:19.676] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/52170, l='ServerLevel[world]', x=-376.47, y=19.00, z=-211.73] died: 2/10 drowned
+[01May2024 02:20:34.706] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityCrab['2/45'/51952, l='ServerLevel[world]', x=-340.75, y=-28.00, z=-184.87] died: 2/45 was slain by ibah
+[01May2024 02:20:39.008] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['6/20'/52091, l='ServerLevel[world]', x=-337.24, y=-28.00, z=-188.16] died: 6/20 was slain by ibah
+[01May2024 02:20:49.100] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/52129, l='ServerLevel[world]', x=-234.15, y=125.00, z=-371.31] died: 1/20 was slain by VHSchrome
+[01May2024 02:21:19.952] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/52265, l='ServerLevel[world]', x=-313.06, y=-51.00, z=-220.44] died: 2/20 was slain by ibah
+[01May2024 02:21:24.124] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['13/20'/51086, l='ServerLevel[world]', x=-315.66, y=-51.00, z=-216.53] died: 13/20 was blown up by 20/20
+[01May2024 02:21:24.124] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillager['13/20'/51695, l='ServerLevel[world]', x=-316.30, y=-51.00, z=-217.49] died: 13/20 was blown up by 20/20
+[01May2024 02:21:24.127] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['13/20'/52065, l='ServerLevel[world]', x=-315.13, y=-51.00, z=-215.40] died: 13/20 was blown up by 20/20
+[01May2024 02:21:24.130] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['6/6'/52215, l='ServerLevel[world]', x=-316.78, y=-49.60, z=-216.64] died: 6/6 was blown up by 20/20
+[01May2024 02:21:27.503] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/51809, l='ServerLevel[world]', x=-315.92, y=-51.00, z=-214.19] died: 0/20 was slain by ibah
+[01May2024 02:21:32.854] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/51810, l='ServerLevel[world]', x=-318.36, y=-51.00, z=-215.83] died: 4/20 was slain by ibah
+[01May2024 02:21:36.752] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/51085, l='ServerLevel[world]', x=-320.60, y=-51.00, z=-216.76] died: 0/20 was slain by ibah
+[01May2024 02:22:26.526] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/52572, l='ServerLevel[world]', x=-286.52, y=-40.00, z=-167.31] died: 2/10 drowned
+[01May2024 02:22:27.524] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/52570, l='ServerLevel[world]', x=-294.42, y=-40.00, z=-163.00] died: 2/10 drowned
+[01May2024 02:22:33.148] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/52412, l='ServerLevel[world]', x=-239.28, y=126.94, z=-354.82] died: 0/20 was slain by VHSchrome
+[01May2024 02:22:50.525] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/52633, l='ServerLevel[world]', x=-286.40, y=-14.00, z=-159.55] died: 2/10 drowned
+[01May2024 02:22:57.854] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/52585, l='ServerLevel[world]', x=-313.29, y=-50.00, z=-200.83] died: 1/20 was slain by ibah
+[01May2024 02:23:03.154] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/52583, l='ServerLevel[world]', x=-313.58, y=-50.00, z=-202.51] died: 5/20 was slain by ibah
+[01May2024 02:23:07.154] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['6/20'/52537, l='ServerLevel[world]', x=-313.12, y=-50.00, z=-202.63] died: 6/20 was slain by ibah
+[01May2024 02:23:11.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['2/16'/52466, l='ServerLevel[world]', x=-305.36, y=-48.60, z=-211.50] died: 2/16 was slain by ibah
+[01May2024 02:23:33.876] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityMiner['0/40'/52489, l='ServerLevel[world]', x=-308.48, y=-47.00, z=-194.71] died: 0/40 was shot by 20/20
+[01May2024 02:23:41.258] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['6/20'/52429, l='ServerLevel[world]', x=-302.65, y=-47.00, z=-205.99] died: 6/20 was slain by ibah
+[01May2024 02:23:55.405] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['4/20'/52986, l='ServerLevel[world]', x=-296.22, y=-49.00, z=-213.53] died: 4/20 was slain by ibah
+[01May2024 02:24:04.058] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['3/16'/52727, l='ServerLevel[world]', x=-282.98, y=-44.29, z=-223.50] died: 3/16 was slain by ibah
+[01May2024 02:24:18.545] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['0/20'/53081, l='ServerLevel[world]', x=-365.99, y=77.00, z=-437.89] died: 0/20 was slain by VHSchrome
+[01May2024 02:24:25.256] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['2/16'/52465, l='ServerLevel[world]', x=-279.35, y=-41.00, z=-200.64] died: 2/16 was slain by ibah
+[01May2024 02:24:26.224] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/53132, l='ServerLevel[world]', x=-177.47, y=-28.00, z=-177.78] died: 2/10 drowned
+[01May2024 02:24:29.006] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/53233, l='ServerLevel[world]', x=-280.54, y=-42.00, z=-197.05] died: 1/20 was slain by ibah
+[01May2024 02:24:37.904] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['5/20'/53234, l='ServerLevel[world]', x=-274.31, y=-40.00, z=-186.54] died: 5/20 was slain by ibah
+[01May2024 02:24:41.228] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/53286, l='ServerLevel[world]', x=-435.99, y=31.52, z=-525.77] died: 1/6 tried to swim in lava
+[01May2024 02:24:43.694] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['0/20'/53080, l='ServerLevel[world]', x=-360.10, y=64.00, z=-468.74] died: 0/20 was slain by VHSchrome
+[01May2024 02:24:53.196] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RevenantEntity['4/25'/53304, l='ServerLevel[world]', x=-361.28, y=64.00, z=-473.86] died: 4/25 was slain by VHSchrome
+[01May2024 02:25:17.604] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['1/16'/53153, l='ServerLevel[world]', x=-280.82, y=-31.60, z=-159.08] died: 1/16 was slain by ibah
+[01May2024 02:25:56.724] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['1/20'/53161, l='ServerLevel[world]', x=-310.89, y=-37.61, z=-147.89] died: 1/20 burned to death
+[01May2024 02:26:02.326] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['1/1'/53563, l='ServerLevel[world]', x=-395.32, y=-24.88, z=-184.10] died: 1/1 tried to swim in lava
+[01May2024 02:26:17.054] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['0/20'/53271, l='ServerLevel[world]', x=-275.45, y=-37.53, z=-186.30] died: 0/20 was slain by ibah
+[01May2024 02:26:20.627] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/53762, l='ServerLevel[world]', x=-385.15, y=111.00, z=-374.43] died: 2/4 drowned
+[01May2024 02:26:50.907] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['4/10'/50215, l='ServerLevel[world]', x=-321.58, y=80.00, z=-444.49] died: 4/10 was slain by VHSchrome
+[01May2024 02:27:03.291] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/53927, l='ServerLevel[world]', x=-302.03, y=92.00, z=-427.30] died: 2/20 was slain by VHSchrome
+[01May2024 02:27:31.557] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['2/20'/53891, l='ServerLevel[world]', x=-273.41, y=108.00, z=-416.93] died: 2/20 was slain by VHSchrome
+[01May2024 02:27:38.076] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['1/20'/53982, l='ServerLevel[world]', x=-311.53, y=-39.00, z=-150.27] died: 1/20 burned to death
+[01May2024 02:27:55.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ibah> xaero-waypoint:mine and warden:M:-273:-33:-185:7:false:0:Internal-overworld-waypoints
+[01May2024 02:28:00.625] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/54114, l='ServerLevel[world]', x=-271.01, y=103.00, z=-495.97] died: 1/20 burned to death
+[01May2024 02:28:20.206] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/54228, l='ServerLevel[world]', x=-273.61, y=-40.00, z=-190.66] died: 1/20 was slain by ibah
+[01May2024 02:28:36.007] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['2/20'/54227, l='ServerLevel[world]', x=-275.90, y=-40.46, z=-197.15] died: 2/20 was slain by ibah
+[01May2024 02:28:39.953] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['1/16'/54229, l='ServerLevel[world]', x=-280.37, y=-41.47, z=-191.30] died: 1/16 was slain by ibah
+[01May2024 02:28:47.853] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['6/20'/54308, l='ServerLevel[world]', x=-292.86, y=-44.00, z=-187.65] died: 6/20 was slain by ibah
+[01May2024 02:29:20.379] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/54506, l='ServerLevel[world]', x=-268.16, y=98.35, z=-369.50] died: 1/20 suffocated in a wall
+[01May2024 02:29:29.124] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['3/20'/54309, l='ServerLevel[world]', x=-309.79, y=-42.00, z=-151.35] died: 3/20 tried to swim in lava to escape ibah
+[01May2024 02:29:44.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome has made the advancement [Hot Stuff]
+[01May2024 02:30:24.353] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['7/20'/54888, l='ServerLevel[world]', x=-335.77, y=-29.00, z=-187.56] died: 7/20 was slain by ibah
+[01May2024 02:31:23.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ibah> xaero-waypoint:Warden:W:-304:-30:-227:6:false:0:Internal-overworld-waypoints
+[01May2024 02:32:00.881] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/55392, l='ServerLevel[world]', x=-311.87, y=-34.86, z=-156.33] died: 1/6 burned to death
+[01May2024 02:32:22.126] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/55448, l='ServerLevel[world]', x=-331.38, y=42.43, z=-308.49] died: 1/6 burned to death
+[01May2024 02:32:36.824] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/55479, l='ServerLevel[world]', x=-292.74, y=-42.00, z=-177.53] died: 2/10 drowned
+[01May2024 02:32:38.024] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/55480, l='ServerLevel[world]', x=-292.38, y=-42.00, z=-176.73] died: 2/10 drowned
+[01May2024 02:32:39.775] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/55482, l='ServerLevel[world]', x=-291.29, y=-42.00, z=-177.13] died: 2/10 drowned
+[01May2024 02:32:54.324] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/55447, l='ServerLevel[world]', x=-330.03, y=42.06, z=-310.25] died: 2/6 tried to swim in lava
+[01May2024 02:34:30.774] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityJungleBat['3/20'/55768, l='ServerLevel[world]', x=-325.84, y=38.12, z=-310.59] died: 3/20 tried to swim in lava
+[01May2024 02:34:49.125] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VHSchrome lost connection: You logged in from another location
+[01May2024 02:34:49.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome left the game
+[01May2024 02:34:49.129] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 490516b0-dfc1-3060-a481-11d3d233cccc was unloaded
+[01May2024 02:34:49.144] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VHSchrome[/89.207.78.88:62288] logged in with entity id 56026 at (-237.30000001192093, 125.53584062504456, -368.693745804068)
+[01May2024 02:34:49.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome joined the game
+[01May2024 02:34:49.298] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 490516b0-dfc1-3060-a481-11d3d233cccc was loaded
+[01May2024 02:35:18.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/55998, l='ServerLevel[world]', x=-227.42, y=71.00, z=-427.49] died: 2/4 drowned
+[01May2024 02:35:19.776] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/55997, l='ServerLevel[world]', x=-222.95, y=69.94, z=-425.76] died: 2/4 drowned
+[01May2024 02:36:29.822] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['3/14'/48467, l='ServerLevel[world]', x=-208.85, y=50.02, z=-326.21] died: 3/14 was slain by 2/4
+[01May2024 02:36:36.873] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/56200, l='ServerLevel[world]', x=-183.62, y=25.00, z=-349.44] died: 2/10 drowned
+[01May2024 02:36:51.424] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah lost connection: Disconnected
+[01May2024 02:36:51.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah left the game
+[01May2024 02:36:51.426] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26e65ccf-97a8-36ca-a815-508066571c14 was unloaded
+[01May2024 02:36:57.794] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ibah[/192.168.0.103:56156] logged in with entity id 56285 at (-237.11378880385504, 126.0, -366.609942744076)
+[01May2024 02:36:57.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah joined the game
+[01May2024 02:36:57.855] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26e65ccf-97a8-36ca-a815-508066571c14 was loaded
+[01May2024 02:37:12.572] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/56171, l='ServerLevel[world]', x=-233.00, y=50.22, z=-308.25] died: 2/4 was slain by 9/14
+[01May2024 02:38:56.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/56476, l='ServerLevel[world]', x=-298.71, y=23.00, z=-389.66] died: 2/10 drowned
+[01May2024 02:39:31.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [We Need to Go Deeper]
+[01May2024 02:40:07.277] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VHSchrome lost connection: Disconnected
+[01May2024 02:40:07.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VHSchrome left the game
+[01May2024 02:40:07.279] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 490516b0-dfc1-3060-a481-11d3d233cccc was unloaded
+[01May2024 02:40:12.774] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah lost connection: Disconnected
+[01May2024 02:40:12.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah left the game
+[01May2024 02:40:12.776] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26e65ccf-97a8-36ca-a815-508066571c14 was unloaded
+[01May2024 02:40:16.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01May2024 02:40:16.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01May2024 02:40:16.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01May2024 02:40:16.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01May2024 02:40:16.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01May2024 02:40:17.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:apalachia
+[01May2024 02:40:17.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01May2024 02:40:17.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:skythern
+[01May2024 02:40:17.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:eden
+[01May2024 02:40:17.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:arcana
+[01May2024 02:40:17.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01May2024 02:40:17.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:iceika
+[01May2024 02:40:17.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:wildwood
+[01May2024 02:40:17.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:mortum
+[01May2024 02:40:17.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:vethea
+[01May2024 02:40:17.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01May2024 02:40:17.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (apalachia): All chunks are saved
+[01May2024 02:40:17.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01May2024 02:40:17.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skythern): All chunks are saved
+[01May2024 02:40:17.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (eden): All chunks are saved
+[01May2024 02:40:17.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arcana): All chunks are saved
+[01May2024 02:40:17.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01May2024 02:40:17.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (iceika): All chunks are saved
+[01May2024 02:40:17.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (wildwood): All chunks are saved
+[01May2024 02:40:17.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mortum): All chunks are saved
+[01May2024 02:40:17.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vethea): All chunks are saved
+[01May2024 02:40:17.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

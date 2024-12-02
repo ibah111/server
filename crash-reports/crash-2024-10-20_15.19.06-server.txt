@@ -1,0 +1,184 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 2024-10-20 15:19:06
+Description: Ticking entity
+
+net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: endofherobrine:\u00A7
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at com.lgow.endofherobrine.util.ModResourceLocation.<init>(ModResourceLocation.java:8) ~[endofherobrine-1.20.1-1.0.8.2.jar%23124!/:1.20.1-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.entity.herobrine.Builder.placeStructure(Builder.java:62) ~[endofherobrine-1.20.1-1.0.8.2.jar%23124!/:1.20.1-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.entity.herobrine.Builder.build(Builder.java:93) ~[endofherobrine-1.20.1-1.0.8.2.jar%23124!/:1.20.1-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.entity.herobrine.Builder.m_8024_(Builder.java:127) ~[endofherobrine-1.20.1-1.0.8.2.jar%23124!/:1.20.1-1.0.8.2] {re:classloading}
+	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading,pl:accesstransformer:B,xf:OptiFine:default,re:mixin,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:parcool.mixins.json:common.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading,pl:accesstransformer:B,xf:OptiFine:default,re:mixin,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:parcool.mixins.json:common.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading,pl:accesstransformer:B,xf:OptiFine:default,re:mixin,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinServerLevel,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinServerLevel,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinServerLevel,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at com.lgow.endofherobrine.util.ModResourceLocation.<init>(ModResourceLocation.java:8) ~[endofherobrine-1.20.1-1.0.8.2.jar%23124!/:1.20.1-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.entity.herobrine.Builder.placeStructure(Builder.java:62) ~[endofherobrine-1.20.1-1.0.8.2.jar%23124!/:1.20.1-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.entity.herobrine.Builder.build(Builder.java:93) ~[endofherobrine-1.20.1-1.0.8.2.jar%23124!/:1.20.1-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.entity.herobrine.Builder.m_8024_(Builder.java:127) ~[endofherobrine-1.20.1-1.0.8.2.jar%23124!/:1.20.1-1.0.8.2] {re:classloading}
+	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading,pl:accesstransformer:B,xf:OptiFine:default,re:mixin,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:parcool.mixins.json:common.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading,pl:accesstransformer:B,xf:OptiFine:default,re:mixin,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:parcool.mixins.json:common.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading,pl:accesstransformer:B,xf:OptiFine:default,re:mixin,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinServerLevel,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinServerLevel,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinServerLevel,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+-- Entity being ticked --
+Details:
+	Entity Type: endofherobrine:builder (com.lgow.endofherobrine.entity.herobrine.Builder)
+	Entity ID: 24866
+	Entity Name: §c20/20
+	Entity's Exact location: -581.69, 70.00, -1974.64
+	Entity's Block location: World: (-582,70,-1975), Section: (at 10,6,9 in -37,4,-124; chunk contains blocks -592,-64,-1984 to -577,319,-1969), Region: (-2,-4; contains chunks -64,-128 to -33,-97, blocks -1024,-64,-2048 to -513,319,-1537)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinServerLevel,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sereneseasons.mixins.json:MixinServerLevel,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 2 total; [ServerPlayer['ibah'/70, l='ServerLevel[world]', x=-624.79, y=-23.00, z=-45.72], ServerPlayer['sucleb'/628, l='ServerLevel[world]', x=-602.05, y=70.00, z=-2006.99]]
+	Chunk stats: 6873
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (80,73,-16), Section: (at 0,9,0 in 5,4,-1; chunk contains blocks 80,-64,-16 to 95,319,-1), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Level time: 597141 game time, 715146 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 9941 (now: true), thunder time: 9270 (now: true)
+	Known server brands: forge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver}
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 21.0.3, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 1596526000 bytes (1522 MiB) / 2797600768 bytes (2668 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 7500F 6-Core Processor             
+	Identifier: AuthenticAMD Family 25 Model 97 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.69
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 4070 Ti
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x2782
+	Graphics card #0 versionInfo: DriverVersion=32.0.15.6094
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 37269.97
+	Virtual memory used (MB): 23197.95
+	Swap memory total (MB): 4864.00
+	Swap memory used (MB): 121.85
+	JVM Flags: 1 total; -Xmx8G
+	Server Running: true
+	Player Count: 2 / 20; [ServerPlayer['ibah'/70, l='ServerLevel[world]', x=-624.79, y=-23.00, z=-45.72], ServerPlayer['sucleb'/628, l='ServerLevel[world]', x=-602.05, y=70.00, z=-2006.99]]
+	Data Packs: vanilla, mod:sereneseasons (incompatible), mod:mixinextras (incompatible), mod:jhb, mod:endofherobrine (incompatible), mod:nebulusbetterportals, mod:geckolib, mod:jei, mod:graveyard (incompatible), mod:carryon (incompatible), mod:fallingtree (incompatible), mod:forge, mod:hopo, mod:flywheel, mod:tlskincape (incompatible), mod:create, mod:xaerominimap (incompatible), mod:divinerpg, mod:gravestone, mod:fallingleaves, mod:ironchest, mod:parcool (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar OptiFine TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: NOSIGNATURE
+		SereneSeasons-1.20.1-9.0.0.46.jar                 |Serene Seasons                |sereneseasons                 |9.0.0.46            |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.6.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.6        |DONE      |Manifest: NOSIGNATURE
+		JHB.jar                                           |Jom's Healthbars              |jhb                           |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		endofherobrine-1.20.1-1.0.8.2.jar                 |The End of Herobrine          |endofherobrine                |1.20.1-1.0.8.2      |DONE      |Manifest: NOSIGNATURE
+		nebulus_better_portals-1.0.0-1.20.1.jar           |Nebulus better nether overworl|nebulusbetterportals          |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.4.4.jar                   |GeckoLib 4                    |geckolib                      |4.4.4               |DONE      |Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.3.0.4.jar                     |Just Enough Items             |jei                           |15.3.0.4            |DONE      |Manifest: NOSIGNATURE
+		The_Graveyard_2.6.1_(FORGE)_for_1.20.1.jar        |The Graveyard                 |graveyard                     |2.6.1               |DONE      |Manifest: NOSIGNATURE
+		carryon-forge-1.20.1-2.1.2.7.jar                  |Carry On                      |carryon                       |2.1.2.7             |DONE      |Manifest: NOSIGNATURE
+		FallingTree-1.20.1-4.3.4.jar                      |FallingTree                   |fallingtree                   |4.3.4               |DONE      |Manifest: 3c:8e:df:6c:df:a6:2a:9f:af:64:ea:04:9a:cf:65:92:3b:54:93:0e:96:50:b4:52:e1:13:42:18:2b:ae:40:29
+		forge-1.20.1-47.2.0-universal.jar                 |Forge                         |forge                         |47.2.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		hopobettermineshaft-1.20-1.20.1-1.1.8.jar         |HopoBetterMineshaft           |hopo                          |1.1.8               |DONE      |Manifest: NOSIGNATURE
+		flywheel-forge-1.20.1-0.6.10-7.jar                |Flywheel                      |flywheel                      |0.6.10-7            |DONE      |Manifest: NOSIGNATURE
+		tl_skin_cape_forge_1.20_1.20.1-1.32.jar           |TLSkinCape                    |tlskincape                    |1.32                |DONE      |Manifest: ef:fe:e7:59:91:bb:3a:06:c1:94:f4:f3:9c:3e:26:69:47:fa:2e:c5:53:d3:38:21:65:cc:04:75:e7:61:19:40
+		create-1.20.1-0.5.1.f.jar                         |Create                        |create                        |0.5.1.f             |DONE      |Manifest: NOSIGNATURE
+		Xaeros_Minimap_24.1.0_Forge_1.20.jar              |Xaero's Minimap               |xaerominimap                  |24.1.0              |DONE      |Manifest: NOSIGNATURE
+		divinerpg-1.10.7.1.jar                            |DivineRPG                     |divinerpg                     |1.10.7.1            |DONE      |Manifest: NOSIGNATURE
+		gravestone-1.20.1-1.0.5.jar                       |Gravestone Mod                |gravestone                    |1.20.1-1.0.5        |DONE      |Manifest: NOSIGNATURE
+		Fallingleaves-1.20.1-2.1.0.jar                    |Falling Leaves                |fallingleaves                 |2.1.0               |DONE      |Manifest: NOSIGNATURE
+		ironchest-1.20.1-14.4.4.jar                       |Iron Chests                   |ironchest                     |1.20.1-14.4.4       |DONE      |Manifest: NOSIGNATURE
+		ParCool-1.20.1-3.2.1.0-R.jar                      |ParCool!                      |parcool                       |1.20.1-3.2.1.0-R    |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 0e919f27-63a8-4638-afd5-8beb269e1e3b
+	FML: 47.2
+	Forge: net.minecraftforge:47.2.0

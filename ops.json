@@ -1,5 +1,17 @@
 [
   {
+    "uuid": "8457dfc7-5219-38bf-9315-199779b01702",
+    "name": "sucleb",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "490516b0-dfc1-3060-a481-11d3d233cccc",
+    "name": "VHSchrome",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "985a8fec-8eb3-34b5-bd06-2fd744784146",
     "name": "BoomBox1k",
     "level": 4,

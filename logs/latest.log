@@ -690,3 +690,55 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 [06Jan2025 20:16:03.481] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['8/20'/3403, l='ServerLevel[world]', x=194.42, y=71.00, z=-172.53] died: 8/20 was shot by sucleb
 [06Jan2025 20:16:04.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Monster Hunter]
 [06Jan2025 20:16:04.481] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['4/20'/3405, l='ServerLevel[world]', x=191.77, y=71.00, z=-181.20] died: 4/20 was shot by ibah
+[06Jan2025 20:18:28.879] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/4102, l='ServerLevel[world]', x=12.60, y=-30.00, z=-34.45] died: 2/10 drowned
+[06Jan2025 20:19:15.684] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/4702, l='ServerLevel[world]', x=56.81, y=18.44, z=-304.36] died: 1/6 burned to death
+[06Jan2025 20:19:41.082] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb was kicked for floating too long!
+[06Jan2025 20:19:41.133] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb lost connection: Flying is not enabled on this server
+[06Jan2025 20:19:41.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb left the game
+[06Jan2025 20:19:41.134] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 8457dfc7-5219-38bf-9315-199779b01702 was unloaded
+[06Jan2025 20:20:09.628] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/5147, l='ServerLevel[world]', x=63.70, y=62.00, z=-445.33] died: 2/4 drowned
+[06Jan2025 20:20:14.184] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@211641a1[id=<null>,name=sucleb,properties={},legacy=false] (/192.168.0.105:63036) lost connection: Disconnected
+[06Jan2025 20:20:18.161] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=465, y=-57, z=343}
+[06Jan2025 20:20:23.024] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sucleb[/192.168.0.105:63060] logged in with entity id 5351 at (-223.837170887603, 76.06029167138584, 100.64570805630451)
+[06Jan2025 20:20:23.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb joined the game
+[06Jan2025 20:20:23.121] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 8457dfc7-5219-38bf-9315-199779b01702 was loaded
+[06Jan2025 20:20:28.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [The Power Of Magic]
+[06Jan2025 20:21:29.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Hello!]
+[06Jan2025 20:21:40.382] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaBlade2Entity['400/400'/5579, l='ServerLevel[world]', x=94.60, y=93.00, z=-409.10] died: 400/400 was killed by magic
+[06Jan2025 20:21:42.680] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/5922, l='ServerLevel[world]', x=-389.45, y=-4.00, z=121.40] died: 2/10 drowned
+[06Jan2025 20:21:43.634] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['16/16'/6043, l='ServerLevel[world]', x=-445.89, y=-45.00, z=117.42] died: 16/16 fell from a high place
+[06Jan2025 20:21:51.174] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=7, y=-58, z=-25}
+[06Jan2025 20:21:53.035] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah was kicked for floating too long!
+[06Jan2025 20:21:53.089] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah lost connection: Flying is not enabled on this server
+[06Jan2025 20:21:53.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah left the game
+[06Jan2025 20:21:53.089] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26e65ccf-97a8-36ca-a815-508066571c14 was unloaded
+[06Jan2025 20:22:25.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[06Jan2025 20:22:25.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06Jan2025 20:22:25.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06Jan2025 20:22:25.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06Jan2025 20:22:25.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06Jan2025 20:22:26.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:iceika
+[06Jan2025 20:22:26.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:eden
+[06Jan2025 20:22:26.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:wildwood
+[06Jan2025 20:22:26.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:arcana
+[06Jan2025 20:22:26.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06Jan2025 20:22:26.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:mortum
+[06Jan2025 20:22:26.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:vethea
+[06Jan2025 20:22:26.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:apalachia
+[06Jan2025 20:22:26.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06Jan2025 20:22:26.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:skythern
+[06Jan2025 20:22:26.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06Jan2025 20:22:26.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (iceika): All chunks are saved
+[06Jan2025 20:22:26.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (eden): All chunks are saved
+[06Jan2025 20:22:26.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (wildwood): All chunks are saved
+[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arcana): All chunks are saved
+[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mortum): All chunks are saved
+[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vethea): All chunks are saved
+[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (apalachia): All chunks are saved
+[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skythern): All chunks are saved
+[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06Jan2025 20:22:26.251] [Server thread/INFO] [Framework/]: Unloading server configs...
+[06Jan2025 20:22:26.253] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[06Jan2025 20:22:26.255] [Server thread/INFO] [Framework/]: Finished unloading server configs

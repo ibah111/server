@@ -6,6 +6,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "87d8cb26-fc3f-3d07-b6ad-c7feb2b39361",
+    "name": "WAAR",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "490516b0-dfc1-3060-a481-11d3d233cccc",
     "name": "VHSchrome",
     "level": 4,
@@ -14,6 +20,12 @@
   {
     "uuid": "985a8fec-8eb3-34b5-bd06-2fd744784146",
     "name": "BoomBox1k",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "56675e17-9ecb-3f11-9b5d-a7f2de42d249",
+    "name": "VHS",
     "level": 4,
     "bypassesPlayerLimit": false
   },

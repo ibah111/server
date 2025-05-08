@@ -1,744 +1,294 @@
-[06Jan2025 20:03:18.560] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[06Jan2025 20:03:18.564] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[06Jan2025 20:03:19.017] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[06Jan2025 20:03:19.026] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[06Jan2025 20:03:19.028] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/minecraft/mods/OptiFine-1.20.1_HD_U_I6_pre6.jar%23129!/
-[06Jan2025 20:03:19.031] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\minecraft\mods\OptiFine-1.20.1_HD_U_I6_pre6.jar
-[06Jan2025 20:03:19.033] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[06Jan2025 20:03:19.069] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[06Jan2025 20:03:19.073] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[06Jan2025 20:03:19.253] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\minecraft\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[06Jan2025 20:03:19.254] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\minecraft\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[06Jan2025 20:03:19.256] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\minecraft\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[06Jan2025 20:03:19.257] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\minecraft\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[06Jan2025 20:03:19.348] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[06Jan2025 20:03:19.594] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[06Jan2025 20:03:19.599] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
-[06Jan2025 20:03:19.892] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[06Jan2025 20:03:20.126] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[06Jan2025 20:03:20.133] [main/ERROR] [mixin/]: Mixin config mixins.eternaljesus.json does not specify "minVersion" property
-[06Jan2025 20:03:20.164] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[06Jan2025 20:03:20.165] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[06Jan2025 20:03:20.402] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[06Jan2025 20:03:20.402] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[06Jan2025 20:03:20.403] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[06Jan2025 20:03:20.408] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[06Jan2025 20:03:20.408] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[06Jan2025 20:03:20.408] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[06Jan2025 20:03:20.409] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[06Jan2025 20:03:20.409] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[06Jan2025 20:03:23.194] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zzm000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[06Jan2025 20:03:24.041] [modloading-worker-0/WARN] [fallingleaves/]: Falling Leaves is a client only mod and should be removed from the mods list
-[06Jan2025 20:03:24.138] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[06Jan2025 20:03:24.138] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[06Jan2025 20:03:24.807] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered events
-[06Jan2025 20:03:26.181] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Attached entity attributes
-[06Jan2025 20:03:26.236] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\minecraft\config\divinerpg\divinerpg-common.toml is not correct. Correcting
-[06Jan2025 20:03:26.236] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for DivineRPG.kitraProtected was corrected from [minecraft:salmon, minecraft:cod, minecraft:pufferfish, minecraft:squid, minecraft:tadpole, minecraft:turtle, divinerpg:shark, divinerpg:aequorea, divinerpg:whale, divinerpg:liopleurodon, minecraft:glow_squid, divinerpg:robbin] to its default, [minecraft:salmon, minecraft:cod, minecraft:pufferfish, minecraft:squid, minecraft:tadpole, minecraft:turtle, divinerpg:shark, divinerpg:aequorea, divinerpg:whale, divinerpg:liopleurodon, minecraft:glow_squid, divinerpg:robbin]. 
-[06Jan2025 20:03:26.276] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered triggers
-[06Jan2025 20:03:26.339] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[06Jan2025 20:03:26.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[06Jan2025 20:03:26.376] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[06Jan2025 20:03:26.378] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[06Jan2025 20:03:27.894] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
-[06Jan2025 20:03:27.895] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
-[06Jan2025 20:03:28.009] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06Jan2025 20:03:28.044] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23159!/assets/.mcassetsroot' uses unexpected schema
-[06Jan2025 20:03:28.045] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23159!/data/.mcassetsroot' uses unexpected schema
-[06Jan2025 20:03:28.147] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[06Jan2025 20:03:28.148] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0; Value must be positive: 0; Value must be positive: 0
-[06Jan2025 20:03:28.148] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[06Jan2025 20:03:28.150] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[06Jan2025 20:03:28.150] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[06Jan2025 20:03:28.152] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0; Value must be positive: 0
-[06Jan2025 20:03:28.153] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[06Jan2025 20:03:28.155] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[06Jan2025 20:03:28.156] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0; Value must be positive: 0
-[06Jan2025 20:03:28.158] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[06Jan2025 20:03:28.161] [main/ERROR] [net.minecraft.world.level.biome.MobSpawnSettings/]: Spawn data: Value must be positive: 0
-[06Jan2025 20:03:28.395] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.5 Target: 1.20.1-1.0.10
-[06Jan2025 20:03:28.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
-[06Jan2025 20:03:29.115] [Worker-Main-6/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
-com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23164!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23164!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[06Jan2025 20:03:29.142] [Worker-Main-6/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:divinerpg:patchouli
-com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23164!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23164!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[06Jan2025 20:03:29.156] [Worker-Main-6/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:bettercopper:blocks/old_copper_block
-com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'bettercopper:old_copper_block'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23164!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23164!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[06Jan2025 20:03:29.233] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe divinerpg:shapeless/guide_book
-com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.0-universal.jar%23164!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.0-universal.jar%23164!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23164!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Jan2025 20:03:29.241] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:patchouli_parcool_guide
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
-	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Jan2025 20:03:29.283] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe bettercopper:horse_armor_copper
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Jan2025 20:03:29.289] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 33 recipes
-[06Jan2025 20:03:29.399] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3987 advancements
-[06Jan2025 20:03:30.765] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[06Jan2025 20:03:30.765] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[06Jan2025 20:03:30.765] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[06Jan2025 20:03:30.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06Jan2025 20:03:30.816] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[06Jan2025 20:03:30.834] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[06Jan2025 20:03:30.903] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06Jan2025 20:03:30.903] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[06Jan2025 20:03:30.903] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06Jan2025 20:03:30.903] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[06Jan2025 20:03:30.915] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\jei-server.toml is not correct. Correcting
-[06Jan2025 20:03:30.916] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.916] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
-[06Jan2025 20:03:30.916] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
-[06Jan2025 20:03:30.917] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
-[06Jan2025 20:03:30.918] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\gravestone-server.toml is not correct. Correcting
-[06Jan2025 20:03:30.918] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_obituary was corrected from null to its default, true. 
-[06Jan2025 20:03:30.919] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key replaceable_blocks was corrected from null to its default, [#gravestone:grave_replaceable]. 
-[06Jan2025 20:03:30.919] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key remove_obituary was corrected from null to its default, false. 
-[06Jan2025 20:03:30.920] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key only_owners_can_break was corrected from null to its default, false. 
-[06Jan2025 20:03:30.921] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawn_ghost was corrected from null to its default, false. 
-[06Jan2025 20:03:30.921] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key friendly_ghost was corrected from null to its default, true. 
-[06Jan2025 20:03:30.922] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sneak_pickup was corrected from null to its default, false. 
-[06Jan2025 20:03:30.923] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key break_pickup was corrected from null to its default, true. 
-[06Jan2025 20:03:30.926] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\sereneseasons-server.toml is not correct. Correcting
-[06Jan2025 20:03:30.927] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key time_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.927] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key time_settings.day_duration was corrected from null to its default, 24000. 
-[06Jan2025 20:03:30.927] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key time_settings.sub_season_duration was corrected from null to its default, 8. 
-[06Jan2025 20:03:30.927] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key time_settings.starting_sub_season was corrected from null to its default, 1. 
-[06Jan2025 20:03:30.927] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key time_settings.progress_season_while_offline was corrected from null to its default, true. 
-[06Jan2025 20:03:30.928] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key aesthetic_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.928] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key aesthetic_settings.change_grass_color was corrected from null to its default, true. 
-[06Jan2025 20:03:30.928] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key aesthetic_settings.change_foliage_color was corrected from null to its default, true. 
-[06Jan2025 20:03:30.928] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key aesthetic_settings.change_birch_color was corrected from null to its default, true. 
-[06Jan2025 20:03:30.929] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimension_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.929] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimension_settings.whitelisted_dimensions was corrected from null to its default, [minecraft:overworld]. 
-[06Jan2025 20:03:30.929] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key melting_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.929] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key melting_settings.season_melt_chances was corrected from null to its default, [SimpleConfig:{season=EARLY_WINTER, melt_percent=0.0, rolls=0}, SimpleConfig:{season=MID_WINTER, melt_percent=0.0, rolls=0}, SimpleConfig:{season=LATE_WINTER, melt_percent=0.0, rolls=0}, SimpleConfig:{season=EARLY_SPRING, melt_percent=6.25, rolls=1}, SimpleConfig:{season=MID_SPRING, melt_percent=8.33, rolls=1}, SimpleConfig:{season=LATE_SPRING, melt_percent=12.5, rolls=1}, SimpleConfig:{season=EARLY_SUMMER, melt_percent=25.0, rolls=1}, SimpleConfig:{season=MID_SUMMER, melt_percent=25.0, rolls=1}, SimpleConfig:{season=LATE_SUMMER, melt_percent=25.0, rolls=1}, SimpleConfig:{season=EARLY_AUTUMN, melt_percent=12.5, rolls=1}, SimpleConfig:{season=MID_AUTUMN, melt_percent=8.33, rolls=1}, SimpleConfig:{season=LATE_AUTUMN, melt_percent=6.25, rolls=1}]. 
-[06Jan2025 20:03:30.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\parcool-server.toml is not correct. Correcting
-[06Jan2025 20:03:30.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.limitation_imposed was corrected from null to its default, false. 
-[06Jan2025 20:03:30.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_BreakfallReady was corrected from null to its default, true. 
-[06Jan2025 20:03:30.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_CatLeap was corrected from null to its default, true. 
-[06Jan2025 20:03:30.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_ClimbPoles was corrected from null to its default, true. 
-[06Jan2025 20:03:30.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_ClimbUp was corrected from null to its default, true. 
-[06Jan2025 20:03:30.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_ClingToCliff was corrected from null to its default, true. 
-[06Jan2025 20:03:30.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Crawl was corrected from null to its default, true. 
-[06Jan2025 20:03:30.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Dive was corrected from null to its default, true. 
-[06Jan2025 20:03:30.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Dodge was corrected from null to its default, true. 
-[06Jan2025 20:03:30.935] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_FastRun was corrected from null to its default, true. 
-[06Jan2025 20:03:30.935] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_FastSwim was corrected from null to its default, true. 
-[06Jan2025 20:03:30.935] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Flipping was corrected from null to its default, true. 
-[06Jan2025 20:03:30.935] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_HangDown was corrected from null to its default, true. 
-[06Jan2025 20:03:30.935] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_HorizontalWallRun was corrected from null to its default, true. 
-[06Jan2025 20:03:30.935] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_JumpFromBar was corrected from null to its default, true. 
-[06Jan2025 20:03:30.935] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_QuickTurn was corrected from null to its default, true. 
-[06Jan2025 20:03:30.935] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Roll was corrected from null to its default, true. 
-[06Jan2025 20:03:30.936] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_SkyDive was corrected from null to its default, true. 
-[06Jan2025 20:03:30.936] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Slide was corrected from null to its default, true. 
-[06Jan2025 20:03:30.936] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Tap was corrected from null to its default, true. 
-[06Jan2025 20:03:30.936] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Vault was corrected from null to its default, true. 
-[06Jan2025 20:03:30.936] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_VerticalWallRun was corrected from null to its default, true. 
-[06Jan2025 20:03:30.936] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_WallJump was corrected from null to its default, true. 
-[06Jan2025 20:03:30.936] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_WallSlide was corrected from null to its default, true. 
-[06Jan2025 20:03:30.936] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.936] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.937] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_BreakfallReady was corrected from null to its default, 0. 
-[06Jan2025 20:03:30.937] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_CatLeap was corrected from null to its default, 150. 
-[06Jan2025 20:03:30.937] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_ClimbPoles was corrected from null to its default, 0. 
-[06Jan2025 20:03:30.937] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_ClimbUp was corrected from null to its default, 150. 
-[06Jan2025 20:03:30.937] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_ClingToCliff was corrected from null to its default, 2. 
-[06Jan2025 20:03:30.937] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Crawl was corrected from null to its default, 0. 
-[06Jan2025 20:03:30.938] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Dive was corrected from null to its default, 0. 
-[06Jan2025 20:03:30.938] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Dodge was corrected from null to its default, 80. 
-[06Jan2025 20:03:30.938] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_FastRun was corrected from null to its default, 2. 
-[06Jan2025 20:03:30.938] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_FastSwim was corrected from null to its default, 3. 
-[06Jan2025 20:03:30.938] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Flipping was corrected from null to its default, 80. 
-[06Jan2025 20:03:30.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_HangDown was corrected from null to its default, 3. 
-[06Jan2025 20:03:30.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_HorizontalWallRun was corrected from null to its default, 2. 
-[06Jan2025 20:03:30.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_JumpFromBar was corrected from null to its default, 100. 
-[06Jan2025 20:03:30.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_QuickTurn was corrected from null to its default, 0. 
-[06Jan2025 20:03:30.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Roll was corrected from null to its default, 100. 
-[06Jan2025 20:03:30.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_SkyDive was corrected from null to its default, 0. 
-[06Jan2025 20:03:30.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Slide was corrected from null to its default, 0. 
-[06Jan2025 20:03:30.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Tap was corrected from null to its default, 100. 
-[06Jan2025 20:03:30.940] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Vault was corrected from null to its default, 50. 
-[06Jan2025 20:03:30.940] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_VerticalWallRun was corrected from null to its default, 150. 
-[06Jan2025 20:03:30.940] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_WallJump was corrected from null to its default, 120. 
-[06Jan2025 20:03:30.940] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_WallSlide was corrected from null to its default, 8. 
-[06Jan2025 20:03:30.940] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.allow_infinite_stamina was corrected from null to its default, true. 
-[06Jan2025 20:03:30.940] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.max_stamina_limit was corrected from null to its default, 2147483647. 
-[06Jan2025 20:03:30.940] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.max_stamina_recovery_limit was corrected from null to its default, 2147483647. 
-[06Jan2025 20:03:30.942] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
-[06Jan2025 20:03:30.942] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.943] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[06Jan2025 20:03:30.943] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[06Jan2025 20:03:30.943] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[06Jan2025 20:03:30.943] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[06Jan2025 20:03:30.943] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[06Jan2025 20:03:30.943] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[06Jan2025 20:03:30.943] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[06Jan2025 20:03:30.945] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\create-server.toml is not correct. Correcting
-[06Jan2025 20:03:30.946] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infrastructure was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.946] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infrastructure.tickrateSyncTimer was corrected from null to its default, 20. 
-[06Jan2025 20:03:30.946] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.bulkPressing was corrected from null to its default, false. 
-[06Jan2025 20:03:30.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.bulkCutting was corrected from null to its default, false. 
-[06Jan2025 20:03:30.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowBrewingInMixer was corrected from null to its default, true. 
-[06Jan2025 20:03:30.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowShapelessInMixer was corrected from null to its default, true. 
-[06Jan2025 20:03:30.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowShapedSquareInPress was corrected from null to its default, true. 
-[06Jan2025 20:03:30.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowRegularCraftingInCrafter was corrected from null to its default, true. 
-[06Jan2025 20:03:30.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.maxFireworkIngredientsInCrafter was corrected from null to its default, 9. 
-[06Jan2025 20:03:30.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowStonecuttingOnSaw was corrected from null to its default, true. 
-[06Jan2025 20:03:30.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowWoodcuttingOnSaw was corrected from null to its default, true. 
-[06Jan2025 20:03:30.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowCastingBySpout was corrected from null to its default, true. 
-[06Jan2025 20:03:30.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.displayLogStrippingRecipes was corrected from null to its default, true. 
-[06Jan2025 20:03:30.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.lightSourceCountForRefinedRadiance was corrected from null to its default, 10. 
-[06Jan2025 20:03:30.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.enableRefinedRadianceRecipe was corrected from null to its default, true. 
-[06Jan2025 20:03:30.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.enableShadowSteelRecipe was corrected from null to its default, true. 
-[06Jan2025 20:03:30.949] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.949] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.disableStress was corrected from null to its default, false. 
-[06Jan2025 20:03:30.949] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxBeltLength was corrected from null to its default, 20. 
-[06Jan2025 20:03:30.949] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.crushingDamage was corrected from null to its default, 4. 
-[06Jan2025 20:03:30.950] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxRotationSpeed was corrected from null to its default, 256. 
-[06Jan2025 20:03:30.950] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.ignoreDeployerAttacks was corrected from null to its default, CREEPERS. 
-[06Jan2025 20:03:30.950] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.kineticValidationFrequency was corrected from null to its default, 60. 
-[06Jan2025 20:03:30.950] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.crankHungerMultiplier was corrected from null to its default, 0.009999999776482582. 
-[06Jan2025 20:03:30.950] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.minimumWindmillSails was corrected from null to its default, 8. 
-[06Jan2025 20:03:30.950] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.windmillSailsPerRPM was corrected from null to its default, 8. 
-[06Jan2025 20:03:30.950] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxEjectorDistance was corrected from null to its default, 32. 
-[06Jan2025 20:03:30.951] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.ejectorScanInterval was corrected from null to its default, 120. 
-[06Jan2025 20:03:30.951] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.951] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanPushDistance was corrected from null to its default, 20. 
-[06Jan2025 20:03:30.951] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanPullDistance was corrected from null to its default, 20. 
-[06Jan2025 20:03:30.951] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanBlockCheckRate was corrected from null to its default, 30. 
-[06Jan2025 20:03:30.951] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanRotationArgmax was corrected from null to its default, 256. 
-[06Jan2025 20:03:30.951] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanProcessingTime was corrected from null to its default, 150. 
-[06Jan2025 20:03:30.952] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.952] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxBlocksMoved was corrected from null to its default, 2048. 
-[06Jan2025 20:03:30.952] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxDataSize was corrected from null to its default, 2000000. 
-[06Jan2025 20:03:30.952] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxChassisRange was corrected from null to its default, 16. 
-[06Jan2025 20:03:30.952] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxPistonPoles was corrected from null to its default, 64. 
-[06Jan2025 20:03:30.952] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxRopeLength was corrected from null to its default, 256. 
-[06Jan2025 20:03:30.952] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxCartCouplingLength was corrected from null to its default, 32. 
-[06Jan2025 20:03:30.952] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.rollerFillDepth was corrected from null to its default, 12. 
-[06Jan2025 20:03:30.953] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.survivalContraptionPickup was corrected from null to its default, true. 
-[06Jan2025 20:03:30.953] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableSpawners was corrected from null to its default, NO_PICKUP. 
-[06Jan2025 20:03:30.953] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.amethystMovement was corrected from null to its default, NO_PICKUP. 
-[06Jan2025 20:03:30.953] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableObsidian was corrected from null to its default, UNMOVABLE. 
-[06Jan2025 20:03:30.953] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableReinforcedDeepslate was corrected from null to its default, UNMOVABLE. 
-[06Jan2025 20:03:30.953] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.moveItemsToStorage was corrected from null to its default, true. 
-[06Jan2025 20:03:30.953] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.harvestPartiallyGrown was corrected from null to its default, false. 
-[06Jan2025 20:03:30.953] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.harvesterReplants was corrected from null to its default, true. 
-[06Jan2025 20:03:30.954] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.minecartContraptionInContainers was corrected from null to its default, false. 
-[06Jan2025 20:03:30.954] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.954] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.mediumSpeed was corrected from null to its default, 30.0. 
-[06Jan2025 20:03:30.954] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.fastSpeed was corrected from null to its default, 100.0. 
-[06Jan2025 20:03:30.954] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.mediumStressImpact was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.954] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.highStressImpact was corrected from null to its default, 8.0. 
-[06Jan2025 20:03:30.954] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.mediumCapacity was corrected from null to its default, 256.0. 
-[06Jan2025 20:03:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.highCapacity was corrected from null to its default, 1024.0. 
-[06Jan2025 20:03:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.display_board was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.deployer was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_piston was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.millstone was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_bearing was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.956] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.clockwork_bearing was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.956] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.cuckoo_clock was corrected from null to its default, 1.0. 
-[06Jan2025 20:03:30.956] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.speedometer was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.956] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.copper_backtank was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.956] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_saw was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.956] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.flywheel was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.956] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.encased_chain_drive was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.956] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.clutch was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.956] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.encased_fan was corrected from null to its default, 2.0. 
-[06Jan2025 20:03:30.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.adjustable_chain_gearshift was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_pump was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.crushing_wheel was corrected from null to its default, 8.0. 
-[06Jan2025 20:03:30.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_mixer was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gantry_shaft was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.rope_pulley was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.rotation_speed_controller was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_arm was corrected from null to its default, 2.0. 
-[06Jan2025 20:03:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.netherite_backtank was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_shaft was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_press was corrected from null to its default, 8.0. 
-[06Jan2025 20:03:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.large_cogwheel was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_drill was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_large_cogwheel was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_large_cogwheel was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mysterious_cuckoo_clock was corrected from null to its default, 1.0. 
-[06Jan2025 20:03:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.stressometer was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.shaft was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_shaft was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gearshift was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.turntable was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.sticky_mechanical_piston was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.sequenced_gearshift was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.weighted_ejector was corrected from null to its default, 2.0. 
-[06Jan2025 20:03:30.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.cogwheel was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_cogwheel was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.belt was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_cogwheel was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gearbox was corrected from null to its default, 0.0. 
-[06Jan2025 20:03:30.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.hose_pulley was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.elevator_pulley was corrected from null to its default, 4.0. 
-[06Jan2025 20:03:30.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_crafter was corrected from null to its default, 2.0. 
-[06Jan2025 20:03:30.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.copper_valve_handle was corrected from null to its default, 8.0. 
-[06Jan2025 20:03:30.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.hand_crank was corrected from null to its default, 8.0. 
-[06Jan2025 20:03:30.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.steam_engine was corrected from null to its default, 1024.0. 
-[06Jan2025 20:03:30.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.creative_motor was corrected from null to its default, 16384.0. 
-[06Jan2025 20:03:30.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.large_water_wheel was corrected from null to its default, 128.0. 
-[06Jan2025 20:03:30.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.water_wheel was corrected from null to its default, 32.0. 
-[06Jan2025 20:03:30.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.windmill_bearing was corrected from null to its default, 512.0. 
-[06Jan2025 20:03:30.963] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.963] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidTankCapacity was corrected from null to its default, 8. 
-[06Jan2025 20:03:30.963] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidTankMaxHeight was corrected from null to its default, 32. 
-[06Jan2025 20:03:30.963] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.mechanicalPumpRange was corrected from null to its default, 16. 
-[06Jan2025 20:03:30.963] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.hosePulleyRange was corrected from null to its default, 128. 
-[06Jan2025 20:03:30.963] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.hosePulleyBlockThreshold was corrected from null to its default, 10000. 
-[06Jan2025 20:03:30.964] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fillInfinite was corrected from null to its default, false. 
-[06Jan2025 20:03:30.964] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.bottomlessFluidMode was corrected from null to its default, ALLOW_BY_TAG. 
-[06Jan2025 20:03:30.964] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidFillPlaceFluidSourceBlocks was corrected from null to its default, true. 
-[06Jan2025 20:03:30.964] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.pipesPlaceFluidSourceBlocks was corrected from null to its default, true. 
-[06Jan2025 20:03:30.965] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.965] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.defaultExtractionTimer was corrected from null to its default, 8. 
-[06Jan2025 20:03:30.965] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.psiTimeout was corrected from null to its default, 60. 
-[06Jan2025 20:03:30.966] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.mechanicalArmRange was corrected from null to its default, 5. 
-[06Jan2025 20:03:30.966] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.linkRange was corrected from null to its default, 256. 
-[06Jan2025 20:03:30.966] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.displayLinkRange was corrected from null to its default, 64. 
-[06Jan2025 20:03:30.966] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.vaultCapacity was corrected from null to its default, 20. 
-[06Jan2025 20:03:30.966] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.brassTunnelTimer was corrected from null to its default, 10. 
-[06Jan2025 20:03:30.966] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.seatHostileMobs was corrected from null to its default, true. 
-[06Jan2025 20:03:30.968] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.968] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.creativePrintIncludesAir was corrected from null to its default, false. 
-[06Jan2025 20:03:30.968] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.maxSchematics was corrected from null to its default, 256. 
-[06Jan2025 20:03:30.968] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.maxSchematicPacketSize was corrected from null to its default, 1024. 
-[06Jan2025 20:03:30.968] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicIdleTimeout was corrected from null to its default, 600. 
-[06Jan2025 20:03:30.968] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.968] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon.schematicannonDelay was corrected from null to its default, 10. 
-[06Jan2025 20:03:30.968] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon.schematicannonGunpowderWorth was corrected from null to its default, 20.0. 
-[06Jan2025 20:03:30.969] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon.schematicannonFuelUsage was corrected from null to its default, 0.05000000074505806. 
-[06Jan2025 20:03:30.970] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.970] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.maxSymmetryWandRange was corrected from null to its default, 50. 
-[06Jan2025 20:03:30.970] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.placementAssistRange was corrected from null to its default, 12. 
-[06Jan2025 20:03:30.970] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.toolboxRange was corrected from null to its default, 10. 
-[06Jan2025 20:03:30.971] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.airInBacktank was corrected from null to its default, 900. 
-[06Jan2025 20:03:30.971] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.enchantedBacktankCapacity was corrected from null to its default, 300. 
-[06Jan2025 20:03:30.971] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.maxExtendoGripActions was corrected from null to its default, 1000. 
-[06Jan2025 20:03:30.971] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.maxPotatoCannonShots was corrected from null to its default, 200. 
-[06Jan2025 20:03:30.973] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.973] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainsCauseDamage was corrected from null to its default, true. 
-[06Jan2025 20:03:30.973] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxTrackPlacementLength was corrected from null to its default, 32. 
-[06Jan2025 20:03:30.973] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxAssemblyLength was corrected from null to its default, 128. 
-[06Jan2025 20:03:30.973] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxBogeyCount was corrected from null to its default, 20. 
-[06Jan2025 20:03:30.973] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.manualTrainSpeedModifier was corrected from null to its default, 0.75. 
-[06Jan2025 20:03:30.973] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.973] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainTopSpeed was corrected from null to its default, 28.0. 
-[06Jan2025 20:03:30.973] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainTurningTopSpeed was corrected from null to its default, 14.0. 
-[06Jan2025 20:03:30.974] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainAcceleration was corrected from null to its default, 3.0. 
-[06Jan2025 20:03:30.974] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Jan2025 20:03:30.974] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainTopSpeed was corrected from null to its default, 40.0. 
-[06Jan2025 20:03:30.974] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainTurningTopSpeed was corrected from null to its default, 20.0. 
-[06Jan2025 20:03:30.974] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainAcceleration was corrected from null to its default, 3.0. 
-[06Jan2025 20:03:31.005] [Server thread/INFO] [Framework/]: Loading server configs...
-[06Jan2025 20:03:31.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[06Jan2025 20:03:36.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[06Jan2025 20:03:37.210] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jan2025 20:03:37.466] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jan2025 20:03:37.962] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[06Jan2025 20:03:38.464] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[06Jan2025 20:03:38.965] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[06Jan2025 20:03:39.463] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[06Jan2025 20:03:40.109] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[06Jan2025 20:03:40.464] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[06Jan2025 20:03:40.965] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[06Jan2025 20:03:41.462] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[06Jan2025 20:03:41.962] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[06Jan2025 20:03:42.464] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[06Jan2025 20:03:42.975] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[06Jan2025 20:03:43.397] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.2.0.jar%23160!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.2.0.jar%23160!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23160!/:?]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[06Jan2025 20:03:43.398] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[06Jan2025 20:03:43.464] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[06Jan2025 20:03:43.963] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[06Jan2025 20:03:44.462] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[06Jan2025 20:03:44.982] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
-[06Jan2025 20:03:45.466] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
-[06Jan2025 20:03:45.645] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=7, y=-58, z=-25}
-[06Jan2025 20:03:45.962] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[06Jan2025 20:03:46.463] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[06Jan2025 20:03:46.962] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[06Jan2025 20:03:47.270] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=7, y=-58, z=-25}
-[06Jan2025 20:03:47.467] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[06Jan2025 20:03:47.646] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10684 ms
-[06Jan2025 20:03:47.646] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (16.731s)! For help, type "help"
-[06Jan2025 20:03:47.668] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[06Jan2025 20:03:58.399] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.2.0.jar%23160!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.2.0.jar%23160!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23160!/:?]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[06Jan2025 20:03:58.399] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[06Jan2025 20:03:58.803] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[06Jan2025 20:03:58.803] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Starting version check at https://raw.githubusercontent.com/DivineRPG/DivineRPG-Assets/main/divinerpg_update.json
-[06Jan2025 20:03:59.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Found status: OUTDATED Current: 1.10.7.1 Target: 1.10.7.3
-[06Jan2025 20:04:01.524] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[06Jan2025 20:04:01.551] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sucleb[/192.168.0.105:62375] logged in with entity id 378 at (-0.5, 66.0, -6.5)
-[06Jan2025 20:04:01.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb joined the game
-[06Jan2025 20:04:01.781] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 8457dfc7-5219-38bf-9315-199779b01702 was loaded
-[06Jan2025 20:04:45.379] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['1/8'/190, l='ServerLevel[world]', x=-86.45, y=63.00, z=181.55] died: 1/8 suffocated in a wall
-[06Jan2025 20:04:58.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has made the advancement [Isn't It Iron Pick]
-[06Jan2025 20:06:01.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Set own game mode to Creative Mode]
-[06Jan2025 20:06:39.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has made the advancement [Hello!]
-[06Jan2025 20:07:10.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has made the advancement [Ghost Riders In The Sky]
-[06Jan2025 20:08:00.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Set own game mode to Survival Mode]
-[06Jan2025 20:09:05.939] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ibah[/127.0.0.1:59197] logged in with entity id 1697 at (2.5, 70.0, -1.5)
-[06Jan2025 20:09:05.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah joined the game
-[06Jan2025 20:09:06.382] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26e65ccf-97a8-36ca-a815-508066571c14 was loaded
-[06Jan2025 20:09:21.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Teleported ibah to sucleb]
-[06Jan2025 20:09:21.055] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 106.01238708673404,3.0,121.65383419565407
-[06Jan2025 20:09:21.061] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 106.01238708673404,3.0,121.65383419565407
-[06Jan2025 20:10:01.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has made the advancement [Ol' Betsy]
-[06Jan2025 20:10:05.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has made the advancement [Take Aim]
-[06Jan2025 20:10:57.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Gravedigger]
-[06Jan2025 20:11:01.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Suit Up]
-[06Jan2025 20:11:25.165] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=465, y=-57, z=343}
-[06Jan2025 20:11:33.901] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=7, y=-58, z=-25}
-[06Jan2025 20:11:44.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Teleported ibah to sucleb]
-[06Jan2025 20:11:44.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 0.7925801373518198,2.1661092609382138,-152.84694259570574
-[06Jan2025 20:11:44.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 0.7925801373518198,2.1661092609382138,-152.84694259570574
-[06Jan2025 20:11:44.101] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 0.7925801373518198,2.1661092609382138,-152.84694259570574
-[06Jan2025 20:11:44.106] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 0.7925801373518198,2.1661092609382138,-152.84694259570574
-[06Jan2025 20:11:44.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 0.7925801373518198,2.1661092609382138,-152.84694259570574
-[06Jan2025 20:11:44.118] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 0.7925801373518198,2.1661092609382138,-152.84694259570574
-[06Jan2025 20:12:57.985] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb was kicked for floating too long!
-[06Jan2025 20:12:58.035] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb lost connection: Flying is not enabled on this server
-[06Jan2025 20:12:58.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb left the game
-[06Jan2025 20:12:58.036] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 8457dfc7-5219-38bf-9315-199779b01702 was unloaded
-[06Jan2025 20:13:11.123] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sucleb[/192.168.0.105:62737] logged in with entity id 3018 at (227.2829334935261, 105.91559928247769, -201.79933440353977)
-[06Jan2025 20:13:11.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb joined the game
-[06Jan2025 20:13:11.196] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 8457dfc7-5219-38bf-9315-199779b01702 was loaded
-[06Jan2025 20:13:17.579] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb was kicked for floating too long!
-[06Jan2025 20:13:17.632] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb lost connection: Flying is not enabled on this server
-[06Jan2025 20:13:17.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb left the game
-[06Jan2025 20:13:17.632] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 8457dfc7-5219-38bf-9315-199779b01702 was unloaded
-[06Jan2025 20:13:29.059] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sucleb[/192.168.0.105:62756] logged in with entity id 3049 at (225.77473416011028, 82.33897989494157, -206.43474280664458)
-[06Jan2025 20:13:29.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb joined the game
-[06Jan2025 20:13:29.134] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 8457dfc7-5219-38bf-9315-199779b01702 was loaded
-[06Jan2025 20:14:42.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has made the advancement [Sweet Dreams]
-[06Jan2025 20:15:15.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Sweet Dreams]
-[06Jan2025 20:15:32.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Ol' Betsy]
-[06Jan2025 20:15:37.929] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/3426, l='ServerLevel[world]', x=163.76, y=73.00, z=-178.50] died: 1/20 burned to death
-[06Jan2025 20:15:38.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Take Aim]
-[06Jan2025 20:15:39.939] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['20/20'/3443, l='ServerLevel[world]', x=210.98, y=72.00, z=-202.98] died: 20/20 was blown up by 20/20
-[06Jan2025 20:16:03.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has made the advancement [Monster Hunter]
-[06Jan2025 20:16:03.481] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['8/20'/3403, l='ServerLevel[world]', x=194.42, y=71.00, z=-172.53] died: 8/20 was shot by sucleb
-[06Jan2025 20:16:04.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Monster Hunter]
-[06Jan2025 20:16:04.481] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['4/20'/3405, l='ServerLevel[world]', x=191.77, y=71.00, z=-181.20] died: 4/20 was shot by ibah
-[06Jan2025 20:18:28.879] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/4102, l='ServerLevel[world]', x=12.60, y=-30.00, z=-34.45] died: 2/10 drowned
-[06Jan2025 20:19:15.684] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/4702, l='ServerLevel[world]', x=56.81, y=18.44, z=-304.36] died: 1/6 burned to death
-[06Jan2025 20:19:41.082] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb was kicked for floating too long!
-[06Jan2025 20:19:41.133] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb lost connection: Flying is not enabled on this server
-[06Jan2025 20:19:41.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb left the game
-[06Jan2025 20:19:41.134] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 8457dfc7-5219-38bf-9315-199779b01702 was unloaded
-[06Jan2025 20:20:09.628] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAequorea['2/4'/5147, l='ServerLevel[world]', x=63.70, y=62.00, z=-445.33] died: 2/4 drowned
-[06Jan2025 20:20:14.184] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@211641a1[id=<null>,name=sucleb,properties={},legacy=false] (/192.168.0.105:63036) lost connection: Disconnected
-[06Jan2025 20:20:18.161] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=465, y=-57, z=343}
-[06Jan2025 20:20:23.024] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sucleb[/192.168.0.105:63060] logged in with entity id 5351 at (-223.837170887603, 76.06029167138584, 100.64570805630451)
-[06Jan2025 20:20:23.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb joined the game
-[06Jan2025 20:20:23.121] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 8457dfc7-5219-38bf-9315-199779b01702 was loaded
-[06Jan2025 20:20:28.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [The Power Of Magic]
-[06Jan2025 20:21:29.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah has made the advancement [Hello!]
-[06Jan2025 20:21:40.382] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaBlade2Entity['400/400'/5579, l='ServerLevel[world]', x=94.60, y=93.00, z=-409.10] died: 400/400 was killed by magic
-[06Jan2025 20:21:42.680] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['2/10'/5922, l='ServerLevel[world]', x=-389.45, y=-4.00, z=121.40] died: 2/10 drowned
-[06Jan2025 20:21:43.634] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['16/16'/6043, l='ServerLevel[world]', x=-445.89, y=-45.00, z=117.42] died: 16/16 fell from a high place
-[06Jan2025 20:21:51.174] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=7, y=-58, z=-25}
-[06Jan2025 20:21:53.035] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah was kicked for floating too long!
-[06Jan2025 20:21:53.089] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah lost connection: Flying is not enabled on this server
-[06Jan2025 20:21:53.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibah left the game
-[06Jan2025 20:21:53.089] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26e65ccf-97a8-36ca-a815-508066571c14 was unloaded
-[06Jan2025 20:22:25.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[06Jan2025 20:22:25.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06Jan2025 20:22:25.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06Jan2025 20:22:25.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06Jan2025 20:22:25.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06Jan2025 20:22:26.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:iceika
-[06Jan2025 20:22:26.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:eden
-[06Jan2025 20:22:26.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:wildwood
-[06Jan2025 20:22:26.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:arcana
-[06Jan2025 20:22:26.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06Jan2025 20:22:26.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:mortum
-[06Jan2025 20:22:26.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:vethea
-[06Jan2025 20:22:26.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:apalachia
-[06Jan2025 20:22:26.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06Jan2025 20:22:26.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:skythern
-[06Jan2025 20:22:26.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06Jan2025 20:22:26.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (iceika): All chunks are saved
-[06Jan2025 20:22:26.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (eden): All chunks are saved
-[06Jan2025 20:22:26.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (wildwood): All chunks are saved
-[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arcana): All chunks are saved
-[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mortum): All chunks are saved
-[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vethea): All chunks are saved
-[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (apalachia): All chunks are saved
-[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skythern): All chunks are saved
-[06Jan2025 20:22:26.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06Jan2025 20:22:26.251] [Server thread/INFO] [Framework/]: Unloading server configs...
-[06Jan2025 20:22:26.253] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
-[06Jan2025 20:22:26.255] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[28Apr2025 00:00:20.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Teleported ibah to sucleb]
+[28Apr2025 00:00:20.859] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 9.707039111906226,-6.375100099999997,112.92102948828189
+[28Apr2025 00:00:20.874] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 9.707039111906226,-6.375100099999997,112.92102948828189
+[28Apr2025 00:01:10.717] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:01:10.717] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:02:05.838] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/99734, l='ServerLevel[world]', x=249.73, y=-32.85, z=137.78] died: 1/6 burned to death
+[28Apr2025 00:03:44.888] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/99925, l='ServerLevel[world]', x=258.61, y=-34.60, z=-86.72] died: 2/6 tried to swim in lava
+[28Apr2025 00:04:44.036] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/100160, l='ServerLevel[world]', x=264.57, y=-54.13, z=-83.85] died: 1/6 tried to swim in lava
+[28Apr2025 00:04:52.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has made the advancement [We Need to Go Deeper]
+[28Apr2025 00:05:11.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/100171, l='ServerLevel[world]', x=290.56, y=-55.14, z=10.77] died: 2/6 tried to swim in lava
+[28Apr2025 00:06:10.712] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:06:10.712] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:06:12.185] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/101067, l='ServerLevel[world]', x=298.20, y=-16.66, z=-77.88] died: 1/6 burned to death
+[28Apr2025 00:06:16.934] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/101000, l='ServerLevel[world]', x=315.23, y=-44.87, z=-83.20] died: 1/6 tried to swim in lava
+[28Apr2025 00:06:27.785] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/101057, l='ServerLevel[world]', x=299.75, y=-17.11, z=-81.37] died: 2/6 tried to swim in lava
+[28Apr2025 00:06:28.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb fell from a high place
+[28Apr2025 00:06:34.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Teleported sucleb to 201.500000, 66.500000, 1843.500000]
+[28Apr2025 00:06:43.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Teleported sucleb to 662.500000, 78.500000, 1698.500000]
+[28Apr2025 00:06:48.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Teleported sucleb to 292.500000, 71.500000, 82.500000]
+[28Apr2025 00:07:46.441] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Strider['20/20'/102250, l='ServerLevel[world]', x=-12.48, y=31.50, z=-18.57] died: 20/20 fell from a high place
+[28Apr2025 00:08:13.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Teleported sucleb to 47.500000, 63.500000, -14.500000]
+[28Apr2025 00:08:13.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb moved too quickly! 0.8390603660227498,41.12087667491526,-3.213445055138793
+[28Apr2025 00:08:22.086] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/102593, l='ServerLevel[world]', x=251.83, y=0.90, z=-121.38] died: 2/6 tried to swim in lava
+[28Apr2025 00:08:36.390] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['3/20'/102221, l='ServerLevel[world]', x=47.14, y=25.74, z=-19.81] died: 3/20 tried to swim in lava to escape sucleb
+[28Apr2025 00:08:43.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has made the advancement [Those Were the Days]
+[28Apr2025 00:08:47.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Teleported ibah to 292.500000, 71.500000, 82.500000]
+[28Apr2025 00:08:47.176] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 18.48127532393886,6.124999899965474,113.19989988807907
+[28Apr2025 00:09:10.240] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Piglin['8/16'/102225, l='ServerLevel[world]', x=23.25, y=33.00, z=22.27] died: 8/16 was doomed to fall
+[28Apr2025 00:09:12.842] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Piglin['3/16'/102222, l='ServerLevel[world]', x=18.98, y=33.00, z=18.75] died: 3/16 tried to swim in lava
+[28Apr2025 00:09:26.042] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Piglin['3/16'/102971, l='ServerLevel[world]', x=32.72, y=63.00, z=21.55] died: 3/16 was shot by sucleb using [Лук ебалук]
+[28Apr2025 00:10:08.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb fell from a high place
+[28Apr2025 00:11:10.709] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:11:10.709] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:11:31.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 7.873117252471417,-0.004431117859184042,-24.296340147937464
+[28Apr2025 00:12:18.043] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=65, y=94, z=13} BlockPos{x=65, y=94, z=12}
+[28Apr2025 00:12:18.092] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=65, y=94, z=13} BlockPos{x=65, y=94, z=12}
+[28Apr2025 00:12:18.142] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=65, y=94, z=13} BlockPos{x=65, y=94, z=12}
+[28Apr2025 00:12:18.195] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=65, y=94, z=13} BlockPos{x=65, y=94, z=12}
+[28Apr2025 00:12:18.244] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=65, y=94, z=13} BlockPos{x=65, y=94, z=12}
+[28Apr2025 00:12:18.294] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=65, y=94, z=13} BlockPos{x=65, y=94, z=12}
+[28Apr2025 00:12:18.344] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=65, y=94, z=13} BlockPos{x=65, y=94, z=12}
+[28Apr2025 00:13:35.986] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/105204, l='ServerLevel[world]', x=309.00, y=-20.85, z=-79.15] died: 2/6 tried to swim in lava
+[28Apr2025 00:13:59.887] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/105239, l='ServerLevel[world]', x=259.49, y=-46.95, z=-86.61] died: 2/6 tried to swim in lava
+[28Apr2025 00:14:06.784] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/105180, l='ServerLevel[world]', x=256.59, y=-27.56, z=-85.85] died: 2/6 tried to swim in lava
+[28Apr2025 00:14:10.984] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/105454, l='ServerLevel[world]', x=320.70, y=-26.05, z=-70.70] died: 1/20 suffocated in a wall
+[28Apr2025 00:15:03.836] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/105460, l='ServerLevel[world]', x=263.04, y=-29.62, z=-93.29] died: 1/6 burned to death
+[28Apr2025 00:15:31.838] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/105807, l='ServerLevel[world]', x=286.90, y=-53.73, z=9.75] died: 1/6 burned to death
+[28Apr2025 00:15:32.036] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/105808, l='ServerLevel[world]', x=203.00, y=-33.24, z=-30.87] died: 1/6 burned to death
+[28Apr2025 00:16:10.715] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:16:10.716] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:17:14.037] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/106259, l='ServerLevel[world]', x=205.99, y=-34.94, z=-34.47] died: 2/6 tried to swim in lava
+[28Apr2025 00:17:44.586] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/106346, l='ServerLevel[world]', x=311.63, y=-31.48, z=-82.54] died: 2/6 tried to swim in lava
+[28Apr2025 00:18:19.285] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/106345, l='ServerLevel[world]', x=311.85, y=-29.97, z=-85.03] died: 1/6 burned to death
+[28Apr2025 00:18:22.294] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['4/4'/106256, l='ServerLevel[world]', x=-64.76, y=44.00, z=7.67] died: 4/4 was shot by sucleb using [Лук ебалук]
+[28Apr2025 00:18:25.492] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['1/1'/106903, l='ServerLevel[world]', x=-64.65, y=44.00, z=8.99] died: 1/1 was shot by sucleb using [Лук ебалук]
+[28Apr2025 00:18:30.143] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['1/1'/106904, l='ServerLevel[world]', x=-65.81, y=44.00, z=9.37] died: 1/1 was shot by sucleb using [Лук ебалук]
+[28Apr2025 00:18:33.093] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['1/1'/106902, l='ServerLevel[world]', x=-64.90, y=44.00, z=7.77] died: 1/1 was shot by sucleb using [Лук ебалук]
+[28Apr2025 00:18:33.885] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/106447, l='ServerLevel[world]', x=310.13, y=-28.75, z=-82.14] died: 1/6 tried to swim in lava
+[28Apr2025 00:18:35.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['1/1'/106905, l='ServerLevel[world]', x=-63.85, y=44.00, z=8.78] died: 1/1 was shot by sucleb using [Лук ебалук]
+[28Apr2025 00:18:49.937] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/106916, l='ServerLevel[world]', x=242.39, y=-37.59, z=-50.62] died: 1/6 burned to death
+[28Apr2025 00:19:11.993] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Piglin['1/16'/106460, l='ServerLevel[world]', x=-89.29, y=6.00, z=39.19] died: 1/16 was slain by 32/40
+[28Apr2025 00:19:50.237] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/106954, l='ServerLevel[world]', x=259.58, y=-27.40, z=-85.88] died: 2/6 tried to swim in lava
+[28Apr2025 00:20:06.737] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/107650, l='ServerLevel[world]', x=259.37, y=-23.97, z=-91.96] died: 1/6 burned to death
+[28Apr2025 00:20:13.636] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/107478, l='ServerLevel[world]', x=244.01, y=-36.90, z=-56.34] died: 2/6 tried to swim in lava
+[28Apr2025 00:20:20.892] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-120, y=46, z=-40} BlockPos{x=-118, y=45, z=-41}
+[28Apr2025 00:21:02.285] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/108117, l='ServerLevel[world]', x=255.49, y=-53.07, z=-75.93] died: 1/6 burned to death
+[28Apr2025 00:21:10.714] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:21:10.714] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:21:15.203] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-115, y=34, z=-100} BlockPos{x=-115, y=33, z=-100}
+[28Apr2025 00:21:15.249] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-115, y=34, z=-100} BlockPos{x=-115, y=33, z=-100}
+[28Apr2025 00:21:15.299] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-115, y=34, z=-100} BlockPos{x=-115, y=33, z=-100}
+[28Apr2025 00:21:15.349] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-115, y=34, z=-100} BlockPos{x=-115, y=33, z=-100}
+[28Apr2025 00:21:59.285] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/108395, l='ServerLevel[world]', x=240.26, y=-21.17, z=-13.50] died: 2/6 drowned
+[28Apr2025 00:22:22.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb was shot by 21/50
+[28Apr2025 00:22:30.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Set own game mode to Creative Mode]
+[28Apr2025 00:22:44.835] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/108706, l='ServerLevel[world]', x=244.12, y=-34.19, z=-61.13] died: 1/6 burned to death
+[28Apr2025 00:22:53.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Teleported sucleb to -91.500000, 33.500000, -127.500000]
+[28Apr2025 00:22:53.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb moved too quickly! -131.52610339104936,-55.5,-119.0
+[28Apr2025 00:22:54.943] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Piglin['6/16'/109361, l='ServerLevel[world]', x=-191.50, y=79.00, z=-103.30] died: 6/16 was slain by 9/20
+[28Apr2025 00:22:59.636] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/109044, l='ServerLevel[world]', x=310.11, y=-29.96, z=-87.48] died: 1/6 burned to death
+[28Apr2025 00:23:17.387] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/109043, l='ServerLevel[world]', x=308.68, y=-30.84, z=-82.98] died: 2/6 tried to swim in lava
+[28Apr2025 00:23:20.487] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/109403, l='ServerLevel[world]', x=222.25, y=-39.68, z=12.93] died: 2/6 tried to swim in lava
+[28Apr2025 00:23:22.886] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/109402, l='ServerLevel[world]', x=223.48, y=-36.00, z=11.68] died: 1/6 burned to death
+[28Apr2025 00:23:32.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has made the advancement [A Terrible Fortress]
+[28Apr2025 00:24:00.836] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['4/20'/109704, l='ServerLevel[world]', x=251.44, y=-55.00, z=-65.48] died: 4/20 tried to swim in lava
+[28Apr2025 00:25:48.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb has completed the challenge [Hot Tourist Destinations]
+[28Apr2025 00:25:51.586] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/109662, l='ServerLevel[world]', x=180.45, y=67.00, z=-61.45] died: 1/20 burned to death
+[28Apr2025 00:26:00.636] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/110113, l='ServerLevel[world]', x=257.71, y=-49.89, z=-86.90] died: 2/6 tried to swim in lava
+[28Apr2025 00:26:10.713] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:26:10.713] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:26:31.686] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/110371, l='ServerLevel[world]', x=308.87, y=-23.76, z=-81.58] died: 2/6 tried to swim in lava
+[28Apr2025 00:27:10.335] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/110968, l='ServerLevel[world]', x=309.41, y=-28.48, z=-83.16] died: 2/6 tried to swim in lava
+[28Apr2025 00:27:53.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Set own game mode to Survival Mode]
+[28Apr2025 00:27:56.512] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=402, y=89, z=-586}
+[28Apr2025 00:27:56.544] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=402, y=89, z=-586}
+[28Apr2025 00:27:56.599] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=402, y=89, z=-586}
+[28Apr2025 00:27:56.655] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=402, y=89, z=-586}
+[28Apr2025 00:27:56.711] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=402, y=89, z=-586}
+[28Apr2025 00:27:56.745] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=402, y=89, z=-586}
+[28Apr2025 00:27:56.805] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=402, y=89, z=-586}
+[28Apr2025 00:27:56.864] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=402, y=89, z=-586}
+[28Apr2025 00:28:03.887] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/111253, l='ServerLevel[world]', x=308.85, y=-29.52, z=-82.82] died: 2/6 tried to swim in lava
+[28Apr2025 00:28:03.936] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/111255, l='ServerLevel[world]', x=309.16, y=-28.03, z=-82.46] died: 2/6 tried to swim in lava
+[28Apr2025 00:28:08.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[28Apr2025 00:28:08.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sh locate<--[HERE]
+[28Apr2025 00:28:14.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
+[28Apr2025 00:28:14.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
+[28Apr2025 00:28:14.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doSeasonCycle|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|mobHealthbars|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
+[28Apr2025 00:28:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
+[28Apr2025 00:28:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
+[28Apr2025 00:28:14.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
+[28Apr2025 00:28:14.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[28Apr2025 00:28:14.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
+[28Apr2025 00:28:14.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
+[28Apr2025 00:28:14.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
+[28Apr2025 00:28:14.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
+[28Apr2025 00:28:14.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
+[28Apr2025 00:28:14.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /carryon (debug|clear|place)
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /season (set|get)
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /curios (list|replace|set|add|remove|clear|drop|reset)
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /parcool limitation (get|set|enable|disable|delete)
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /sbp (list|give|removeNonPlayer)
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /sophisticatedbackpacks -> sbp
+[28Apr2025 00:28:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /sculkhorde (mass|gravemind|status|statusall|raid|statistics|player_profile|config|summon_reinforcements|nodestatus|vessel|reset|spawn_soul_reaper)
+[28Apr2025 00:28:14.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fallingtree toggle
+[28Apr2025 00:28:14.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gore-edition (Amount|Velocity|Extra_Details|Send_Weapon_Creation_Messages_To_Chat|Survivors_And_Corpses|Survivors_Or_Corpses)
+[28Apr2025 00:28:14.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /create (rainbowDebug|overlay|trains|fixLighting|debuginfo|highlight|killTrain|passenger|coupling|config|ponder|clone|glue|util|u)
+[28Apr2025 00:28:14.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /c (rainbowDebug|overlay|trains|fixLighting|debuginfo|highlight|killTrain|passenger|coupling|config|ponder|clone|glue|util|u)
+[28Apr2025 00:28:14.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /restore <target> <death_id> (replace|add)
+[28Apr2025 00:28:50.344] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=415, y=45, z=-583} BlockPos{x=415, y=44, z=-583}
+[28Apr2025 00:28:50.395] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=415, y=45, z=-583} BlockPos{x=415, y=44, z=-583}
+[28Apr2025 00:28:56.543] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=418, y=39, z=-583} BlockPos{x=422, y=34, z=-583}
+[28Apr2025 00:28:56.594] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=418, y=39, z=-583} BlockPos{x=422, y=34, z=-583}
+[28Apr2025 00:28:57.944] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=424, y=31, z=-583} BlockPos{x=423, y=31, z=-583}
+[28Apr2025 00:28:57.994] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=424, y=31, z=-583} BlockPos{x=423, y=31, z=-583}
+[28Apr2025 00:29:27.336] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/111714, l='ServerLevel[world]', x=314.68, y=-40.61, z=-80.39] died: 2/6 tried to swim in lava
+[28Apr2025 00:29:40.793] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=433, y=14, z=-583} BlockPos{x=431, y=14, z=-588}
+[28Apr2025 00:29:40.843] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=433, y=14, z=-583} BlockPos{x=431, y=14, z=-588}
+[28Apr2025 00:29:42.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ibah> ру
+[28Apr2025 00:29:48.140] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Piglin['4/16'/111739, l='ServerLevel[world]', x=513.81, y=31.88, z=-606.12] died: 4/16 tried to swim in lava
+[28Apr2025 00:29:49.843] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=428, y=12, z=-585} BlockPos{x=429, y=13, z=-586}
+[28Apr2025 00:30:11.943] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Piglin['4/16'/112086, l='ServerLevel[world]', x=479.40, y=27.93, z=-679.22] died: 4/16 tried to swim in lava
+[28Apr2025 00:31:07.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Teleported ibah to 285.790000, 63.000000, -28.280000]
+[28Apr2025 00:31:09.686] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/112507, l='ServerLevel[world]', x=309.27, y=-29.22, z=-82.46] died: 2/6 tried to swim in lava
+[28Apr2025 00:31:10.715] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:31:10.715] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:31:17.886] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/112422, l='ServerLevel[world]', x=257.24, y=-22.73, z=-84.25] died: 2/6 tried to swim in lava
+[28Apr2025 00:31:41.587] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/112647, l='ServerLevel[world]', x=309.79, y=-27.05, z=-82.07] died: 2/6 tried to swim in lava
+[28Apr2025 00:31:49.485] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/112527, l='ServerLevel[world]', x=257.46, y=-36.88, z=-87.50] died: 2/6 tried to swim in lava
+[28Apr2025 00:34:05.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Set own game mode to Creative Mode]
+[28Apr2025 00:34:15.685] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/113102, l='ServerLevel[world]', x=298.53, y=-17.13, z=-81.75] died: 2/6 tried to swim in lava
+[28Apr2025 00:34:39.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sucleb: Set own game mode to Survival Mode]
+[28Apr2025 00:35:05.197] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 6.072834593465558,-0.025181929649136237,-16.52544450355444
+[28Apr2025 00:35:13.006] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=405, y=10, z=-557} BlockPos{x=405, y=9, z=-556}
+[28Apr2025 00:36:07.010] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=394, y=9, z=-532} BlockPos{x=394, y=8, z=-533}
+[28Apr2025 00:36:07.048] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=394, y=9, z=-532} BlockPos{x=394, y=8, z=-533}
+[28Apr2025 00:36:07.101] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=394, y=9, z=-532} BlockPos{x=394, y=8, z=-533}
+[28Apr2025 00:36:07.155] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=394, y=9, z=-532} BlockPos{x=394, y=8, z=-533}
+[28Apr2025 00:36:07.194] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=394, y=9, z=-532} BlockPos{x=394, y=8, z=-533}
+[28Apr2025 00:36:10.717] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:36:10.717] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:36:21.639] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/114586, l='ServerLevel[world]', x=173.12, y=-32.10, z=38.60] died: 1/6 tried to swim in lava
+[28Apr2025 00:36:25.695] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sucleb lost connection: Disconnected
+[28Apr2025 00:36:25.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sucleb left the game
+[28Apr2025 00:36:25.696] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 8457dfc7-5219-38bf-9315-199779b01702 was unloaded
+[28Apr2025 00:36:51.538] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/114587, l='ServerLevel[world]', x=172.56, y=-31.65, z=37.81] died: 2/6 tried to swim in lava
+[28Apr2025 00:38:24.536] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/114790, l='ServerLevel[world]', x=173.08, y=-29.89, z=38.19] died: 2/6 tried to swim in lava
+[28Apr2025 00:39:39.087] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/114789, l='ServerLevel[world]', x=172.47, y=-29.85, z=37.83] died: 2/6 tried to swim in lava
+[28Apr2025 00:40:31.637] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/115049, l='ServerLevel[world]', x=223.26, y=-19.67, z=142.39] died: 1/6 burned to death
+[28Apr2025 00:40:41.037] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/115057, l='ServerLevel[world]', x=210.70, y=-17.05, z=-2.30] died: 1/20 suffocated in a wall
+[28Apr2025 00:41:10.699] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:41:10.700] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:45:43.888] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/115490, l='ServerLevel[world]', x=164.66, y=94.00, z=146.33] died: 1/20 burned to death
+[28Apr2025 00:45:45.888] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['1/20'/115396, l='ServerLevel[world]', x=184.50, y=84.00, z=133.81] died: 1/20 burned to death
+[28Apr2025 00:45:52.438] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/115446, l='ServerLevel[world]', x=150.50, y=72.00, z=116.13] died: 1/20 burned to death
+[28Apr2025 00:45:55.487] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['1/20'/115452, l='ServerLevel[world]', x=179.54, y=69.00, z=96.47] died: 1/20 burned to death
+[28Apr2025 00:46:10.702] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:46:10.702] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:49:01.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Teleported ibah to 292.500000, 71.500000, 82.500000]
+[28Apr2025 00:49:01.930] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ibah moved too quickly! 54.800626475368176,2.1248999000000026,12.819989038774253
+[28Apr2025 00:50:05.239] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/116088, l='ServerLevel[world]', x=224.25, y=-18.32, z=147.18] died: 2/6 tried to swim in lava
+[28Apr2025 00:51:10.701] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:51:10.701] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:52:22.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibah: Train 'тест поезд' removed successfully]
+[28Apr2025 00:52:22.688] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/116468, l='ServerLevel[world]', x=279.58, y=-53.81, z=-82.36] died: 1/6 burned to death
+[28Apr2025 00:52:51.287] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/116520, l='ServerLevel[world]', x=256.63, y=-37.52, z=-87.21] died: 2/6 tried to swim in lava
+[28Apr2025 00:53:56.686] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/116727, l='ServerLevel[world]', x=309.76, y=-26.78, z=-82.48] died: 2/6 tried to swim in lava
+[28Apr2025 00:54:18.438] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/116761, l='ServerLevel[world]', x=306.25, y=-17.00, z=-78.75] died: 1/6 burned to death
+[28Apr2025 00:55:32.736] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['1/6'/116708, l='ServerLevel[world]', x=316.17, y=-43.81, z=-82.13] died: 1/6 tried to swim in lava
+[28Apr2025 00:56:10.703] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:56:10.703] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:56:10.936] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/116912, l='ServerLevel[world]', x=243.99, y=-39.23, z=-56.11] died: 2/6 tried to swim in lava
+[28Apr2025 00:56:19.137] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['2/6'/116894, l='ServerLevel[world]', x=315.08, y=-45.12, z=-81.50] died: 2/6 tried to swim in lava
+[28Apr2025 00:57:22.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[28Apr2025 00:57:22.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Apr2025 00:57:22.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Apr2025 00:57:22.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Apr2025 00:57:23.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[28Apr2025 00:57:23.035] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saving 0 events.
+[28Apr2025 00:57:23.035] [Server thread/INFO] [com.github.sculkhorde.core.SculkHorde/]: Saved 0 events. Took 0 Milliseconds.
+[28Apr2025 00:57:23.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:eden
+[28Apr2025 00:57:23.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:apalachia
+[28Apr2025 00:57:23.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:iceika
+[28Apr2025 00:57:23.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:mortum
+[28Apr2025 00:57:23.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[28Apr2025 00:57:23.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[28Apr2025 00:57:23.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:wildwood
+[28Apr2025 00:57:23.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:arcana
+[28Apr2025 00:57:23.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:skythern
+[28Apr2025 00:57:23.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:vethea
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (eden): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (apalachia): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (iceika): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mortum): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (wildwood): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arcana): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skythern): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vethea): All chunks are saved
+[28Apr2025 00:57:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[28Apr2025 00:57:23.224] [Server thread/INFO] [Framework/]: Unloading server configs...
+[28Apr2025 00:57:23.226] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[28Apr2025 00:57:23.228] [Server thread/INFO] [Framework/]: Finished unloading server configs
